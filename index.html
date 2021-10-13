@@ -7,7 +7,10 @@
     .carousel-item{max-height: 600px;}
     .course-img{min-width: 100%;max-height: 250px !important;}
     a{text-decoration: none !important;}
-    body {font-family: Arial;}
+    body {font-family: Arial; display: flex; flex-direction: column; height: 100vh;}
+    .description{text-align: justify !important;}
+    body{display: flex; flex-direction: column;}
+    
     
 </style>
 <head>
@@ -15,7 +18,7 @@
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <title>Bhu computer science</title>
-    <!-- <link rel="stylesheet" href="style.css"> -->
+    
 </head>
 <body>
 
@@ -25,7 +28,7 @@
 <!-- MyNav Start -->
 <nav class="navbar  navbar-expand-md navbar-light bg-white ">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#" >
+      <a class="navbar-brand " href="#" >
           <img src="bhulogo1.jpeg" alt="" height="60" width="250" >
       </a>
       <button class=" navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -85,50 +88,53 @@
 <section class="main-heading my-5">
   <div class="text-center"><h1 class="">Department Of Computer Science<br>Banaras Hindu University</h1>
     <hr class="w-50 mx-auto"  />
-    <h2 class="display-6">Student Profile</h2>
+    <h2 class="display-6"><strong class="text-secondary">Student Profile</strong></h2>
   </div>
 
 </section>
 
-<div class="container">
-  <div class="row mx-4">
-    <div class="col=lg-6 col-md-6 col-12 col-xxl-6">
-      <a href="MSc.html">
-        <figure>
-          <img src="MSc.jpeg" alt="course_img" class="img-fluid course-img">
-        </figure>
-      </a>
-    </div>
-    <div class="col=lg-6 col-md-6 col-12 col-xxl-6">
-      <a href="MSc.html" class="text-dark"><h3 class="text-dark">M.Sc Computer Science</h3></a>
-      
-      <p class="text-secondary">The M.Sc. Computer Science programme, is a four-semester course which aims at imparting quality educationin core Computer Science, so that the students are prepared to face the challenges ofthe highly competitive IT industryas well as carry out research and development. The objective of the programme is to imbibe sound knowledge of theory and hands on practical skills various areas of Computer Science. The program aims imparting advanced courses in Computer Science.</p>
+<section class="px-3 px-sm-0">
+
+  <div class="container mb-0 mb-md-5">
+    <div class="row d-flex flex-sm-column flex-md-row">
+      <div class="col-12 col-md-6 col-lg-6 col-xxl-6 ">
+        <a href="MSc.html">
+          <figure>
+            <img src="MSc.jpeg" alt="course_img" class="img-fluid course-img">
+          </figure>
+        </a>
+      </div>
+      <div class="col-12 col-md-6 col-lg-6 col-xxl-6">
+        <a href="MSc.html" class="text-dark"><h3 class="text-dark text-center">M.Sc Computer Science</h3></a>
+        
+        <p class="text-secondary description">The M.Sc. Computer Science programme, is a four-semester course which aims at imparting quality education in core Computer Science, so that the students are prepared to face the challenges ofthe highly competitive IT industry as well as carry out research and development. The objective of the programme is to imbibe sound knowledge of theory and hands on practical skills in various areas of Computer Science. The program aims at imparting advanced courses in Computer Science.</p>
+      </div>
     </div>
   </div>
-</div>
-
-
-<div class="container my-5">
-  <div class="row m-4">
-    <div class="col=lg-6 col-md-6 col-12 col-xxl-6">
-      <a href="MCA.html" class="text-dark"><h3 class="text-dark">Master of Computer Application</h3></a>
-      
-      <p class="text-secondary ">Master of Computer Applications (MCA) is a fulltime six semester course (3 year program) / four - semester course (2 year program started from the year 2020), which includes one semester of professional training in the industry. The objective is to impart quality education in Computer Science and its applications, so that students are well prepared to face the challenges of the highly competitive IT industry. The course structure ensures overall development of the student, while concentrating on imparting technical skills required for an IT profession.</p>
-    </div>
-    <div class="col=lg-6 col-md-6 col-12 col-xxl-6">
-      <a href="MCA.html">
-        <figure>
-          <img src="MCA.jpeg" alt="course_img" class="img-fluid course-img">
-        </figure>
-      </a>
+  
+  
+  <div class="container my-5">
+    <div class="row d-flex flex-sm-column flex-md-row">
+      <div class="col-12 col-md-6 col-lg-6 col-xxl-6 order-2 order-md-1">
+        <a href="MCA.html" class="text-dark"><h3 class="text-dark text-center">Master of Computer Application</h3></a>
+        
+        <p class="text-secondary description">Master of Computer Applications (MCA) is a fulltime six semester course (3 year program) / four - semester course (2 year program started from the year 2020), which includes one semester of professional training in the industry. The objective is to impart quality education in Computer Science and its applications, so that students are well prepared to face the challenges of the highly competitive IT industry. The course structure ensures overall development of the student, while concentrating on imparting technical skills required for an IT profession.</p>
+      </div>
+      <div class="col-12 col-md-6 col-lg-6 col-xxl-6 order-1 order-md-2">
+        <a href="MCA.html">
+          <figure>
+            <img src="MCA.jpeg" alt="course_img" class="img-fluid course-img">
+          </figure>
+        </a>
+      </div>
     </div>
   </div>
-</div>
+</section>
 
 
 
    
-   <footer class="bg-secondary text-center text-white">
+   <footer class="bg-secondary text-center text-white mt-auto footer">
        <p class="mb-0 badge">Copyright &copy; 2021, Student Profile,BHU-CS Dept.</p><br>
        <p class="my-0 badge">Created by Preeti Sakta, Satyam Jha & Keshav Sharma</p>
    </footer>

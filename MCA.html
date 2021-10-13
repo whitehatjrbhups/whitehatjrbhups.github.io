@@ -7,7 +7,7 @@
     .skill span{ background-color: rgb(112, 117, 117); color: white; font-weight: bold; padding: 2px 2px 2px 2px; border-radius: 5px; margin: 2px;}
     a{text-decoration: none !important;}
     .card-body img{max-height: 300px;max-width: 300px;}
-    body{font-family: Arial}
+    body {font-family: Arial; display: flex; flex-direction: column; height: 100vh;}
     .card-text {color: black; }
     .card-text b{color: gray ;}
     .email , .skill ,.interest{text-align: center;border: 1px grey solid; border-radius: 10px; font-size: .9rem;}
@@ -25,7 +25,7 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <title>MCA</title>
-  <link rel="stylesheet" href="style.css">
+  
 </head>
 <body>
 
@@ -58,68 +58,68 @@
   </nav>
   <!-- MyNav  END -->
 
-  <section class="main-heading my-5">
+  <section class="main-heading mt-5">
     <div class="text-center"><h1 class="display-5 "><strong>MCA Students Profile</strong> </h1>
       <hr class="w-50 mx-auto"  />
-      <h2 class="text-secondary my-5">MCA-2019 (MAIN CAMPUS)</h2>
+      <h2 class="text-secondary my-4">MCA-2019 (MAIN CAMPUS)</h2>
     </div>
   </section>
   
 <section class="section-cards">
   <div class="container">
-    <div class="row d-flex justify-content-center justify-content-lg-around">
+    <div class="row d-flex  justify-content-center justify-content-sm-around">
 
 
-  <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-0 d-flex">
-  <div class="card flex-grow mx-auto">
+  <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-2 px-4 p-sm-0">
+  <div class="card p-xs-1 px-sm-2 h-100 ">
     <div class="card-body d-flex flex-column ">
-        <img src="mca/AyushiLilha.jpeg" alt="Team_image" class="card-img-top img-fluid ">
+        <img src="mca/AyushiLilha.jpeg" alt="Team_image" class="card-img-top img-fluid align-self-center img-thumbnail">
       <h4 class="card-caption text-center">Ayushi Lilha</h4>
       <p class="card-text my-2 dob mb-0"><b>Date of Birth :</b>13/12/1997 </p>
       <p class="card-text my-2 mob mb-0"><b>Mobile :</b>   8853754978 </p>
       <p class="card-text my-2 email shadow"><b>E-mail</b><br>ayushililha45@gmail.com </p> 
-         <p class="card-text my-2 skill shadow"><b>Skills:</b> <span class="badge">C++</span><span class="badge">Problem Solving</span><span class="badge">MySQL</span><span class="badge">DSA</p>
+         <p class="card-text my-2 skill shadow"><b>Skills:</b> <span class="badge">C++</span><span class="badge">Problem Solving</span><span class="badge">MySQL</span><span class="badge">DSA</span></p>
         <p class="card-text my-2 intern"><b>Internships/Projects :</b>SDE intern Innovaccer</p>
         <div class="row d-flex justify-content-around">
-        <button class="shadow btn btn-primary col-5 m-1"  onclick="window.location.href = 'https://drive.google.com/file/d/1SgPFw5OMvbeJBsm8vCZ6HW_9cfe01fA1/view?usp=sharing';">Resume
+        <button class="shadow btn btn-primary col-5 m-1 px-sm-1"  onclick="window.location.href = 'https://drive.google.com/file/d/1SgPFw5OMvbeJBsm8vCZ6HW_9cfe01fA1/view?usp=sharing';">Resume
           </div>
     </div>
 
     </div>
     </div>
 
-    <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-0 d-flex">
-    <div class="card flex-grow mx-auto">
+    <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-2 px-4 p-sm-0">
+    <div class="card p-xs-1 px-sm-2 h-100 ">
     <div class="card-body d-flex flex-column ">
-        <img src="mca/abhishek_saini.jpeg" alt="Team_image" class="card-img-top img-fluid ">
+        <img src="mca/abhishek_saini.jpeg" alt="Team_image" class="card-img-top img-fluid align-self-center img-thumbnail">
       <h4 class="card-caption text-center">Abhishek saini</h4>
       <p class="card-text my-2 dob mb-0"><b>Date of Birth :</b>07/10/1997</p>
       <p class="card-text my-2 mob mb-0"><b>Mobile :</b>8684015986</p>
       <p class="card-text my-2 email shadow"><b>E-mail</b><br>abhisheksaini084@gmail.com</p> 
          <p class="card-text my-2 skill shadow"><b>Skills:</b> <span class="badge">C</span><span class="badge">JAVA</span><span class="badge">DSA</span><span class="badge">HTML</span><span class="badge">JAVASCRIPT</span><span class="badge">CSS</span><span class="badge">
-         BOOTSTRAP</span><span class="badge">NODEJS</span><span class="badge">REACTJS</span><span class="badge">MONGODB</p>
+         BOOTSTRAP</span><span class="badge">NODEJS</span><span class="badge">REACTJS</span><span class="badge">MONGODB</span></p>
          <p class="card-text my-2 intern"><b>Internships/Projects :</b>None</p>
          <div class="row d-flex justify-content-around">
-         <button class="shadow btn btn-primary col-5 m-1"  onclick="window.location.href = 'https://drive.google.com/drive/folders/16FK94ANa7H4RyLmkUDN8L-y92Zl7i9XO?usp=sharing';">Resume
+         <button class="shadow btn btn-primary col-5 m-1 px-sm-1"  onclick="window.location.href = 'https://drive.google.com/drive/folders/16FK94ANa7H4RyLmkUDN8L-y92Zl7i9XO?usp=sharing';">Resume
           </div>
      </div>
 
      </div>
      </div>
 
-     <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-0 d-flex">
-     <div class="card flex-grow mx-auto">
+     <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-2 px-4 p-sm-0">
+     <div class="card p-xs-1 px-sm-2 h-100 ">
      <div class="card-body d-flex flex-column ">
-        <img src="mca/placeholder.jpeg" alt="Team_image" class="card-img-top img-fluid ">
+        <img src="mca/placeholder.jpeg" alt="Team_image" class="card-img-top img-fluid align-self-center img-thumbnail">
       <h4 class="card-caption text-center">Abhishek Maurya</h4>
     
       <p class="card-text my-2 dob mb-0"><b>Date of Birth :</b>10/04/1998 </p>
       <p class="card-text my-2 mob mb-0"><b>Mobile :</b>   9559984002 </p>
       <p class="card-text my-2 email shadow"><b>E-mail</b><br>abhishekkumar1126@gmail.com </p> 
-         <p class="card-text my-2 skill shadow"><b>Skills:</b> <span class="badge">JAVA</span><span class="badge">DATA STRUCTURE AND ALGORITHM</span><span class="badge">PYTHON</span><span class="badge"></p>
+         <p class="card-text my-2 skill shadow"><b>Skills:</b> <span class="badge">JAVA</span><span class="badge">DATA STRUCTURE AND ALGORITHM</span><span class="badge">PYTHON</span></p>
         <p class="card-text my-2 intern"><b>Internships/Projects :</b>None</p> 
         <div class="row d-flex justify-content-around">
-        <button class="shadow btn btn-primary col-5 m-1"  onclick="window.location.href = '';">Resume
+        <button class="shadow btn btn-primary col-5 m-1 px-sm-1"  onclick="window.location.href = '';">Resume
           </div>
     </div>
   </div>
@@ -128,83 +128,83 @@
   </div>
  
 
-  <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-0 d-flex">
-  <div class="card flex-grow mx-auto">
+  <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-2 px-4 p-sm-0">
+  <div class="card p-xs-1 px-sm-2 h-100 ">
     <div class="card-body d-flex flex-column ">
-        <img src="mca/AbhinavArya_Photo.jpeg" alt="Team_image" class="card-img-top img-fluid ">
+        <img src="mca/AbhinavArya_Photo.jpeg" alt="Team_image" class="card-img-top img-fluid align-self-center img-thumbnail">
       <h4 class="card-caption text-center">Abhinav Kumar Arya</h4>
       <p class="card-text my-2 dob mb-0"><b>Date of Birth :</b>31/03/1998 </p>
       <p class="card-text my-2 mob mb-0"><b>Mobile :</b>   7800426073 </p>
       <p class="card-text my-2 email shadow"><b>E-mail</b><br>abhinavarya330@gmail.com </p> 
-         <p class="card-text my-2 skill shadow"><b>Skills:</b> <span class="badge">C</span><span class="badge">Java</span><span class="badge">HTML</span><span class="badge">CSS</span><span class="badge">javascript</span><span class="badge">MySql</p>
+         <p class="card-text my-2 skill shadow"><b>Skills:</b> <span class="badge">C</span><span class="badge">Java</span><span class="badge">HTML</span><span class="badge">CSS</span><span class="badge">javascript</span><span class="badge">MySql</span></p>
         <p class="card-text my-2 intern"><b>Internships/Projects :</b>SDE intern</span><span class="badge"> Innovaccer</p>
         <div class="row d-flex justify-content-around">
-        <button class="shadow btn btn-primary col-5 m-1"  onclick="window.location.href = 'https://drive.google.com/file/d/1zkRBpfBCQxdyyaLKHJDOsurQRv-8gXXk/view?usp=sharing';">Resume
+        <button class="shadow btn btn-primary col-5 m-1 px-sm-1"  onclick="window.location.href = 'https://drive.google.com/file/d/1zkRBpfBCQxdyyaLKHJDOsurQRv-8gXXk/view?usp=sharing';">Resume
           </div>
     </div>
 
     </div>
     </div>
 
-    <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-0 d-flex">
-    <div class="card flex-grow mx-auto">
+    <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-2 px-4 p-sm-0">
+    <div class="card p-xs-1 px-sm-2 h-100 ">
     <div class="card-body d-flex flex-column ">
-        <img src="mca/placeholder.jpeg" alt="Team_image" class="card-img-top img-fluid ">
+        <img src="mca/placeholder.jpeg" alt="Team_image" class="card-img-top img-fluid align-self-center img-thumbnail">
       <h4 class="card-caption text-center">Abhishek Kumar Rai</h4>
     
       <p class="card-text my-2 dob mb-0"><b>Date of Birth :</b>15/08/1998</p>
       <p class="card-text my-2 mob mb-0"><b>Mobile :</b>8565073008</p>
       <p class="card-text my-2 email shadow"><b>E-mail</b><br>abhishek.panday98077@gmail.com</p> 
-         <p class="card-text my-2 skill shadow"><b>Skills:</b> <span class="badge">c</span><span class="badge">c++</span><span class="badge">JAva</span><span class="badge">DataStructure & Algorithm</span><span class="badge">javascript</span><span class="badge">MySql</p>
+         <p class="card-text my-2 skill shadow"><b>Skills:</b> <span class="badge">c</span><span class="badge">c++</span><span class="badge">JAva</span><span class="badge">DataStructure & Algorithm</span><span class="badge">javascript</span><span class="badge">MySql</span></p>
          <p class="card-text my-2 intern"><b>Internships/Projects :</b>None</p>
          <div class="row d-flex justify-content-around">
-         <button class="shadow btn btn-primary col-5 m-1"  onclick="window.location.href = '';">Resume
+         <button class="shadow btn btn-primary col-5 m-1 px-sm-1"  onclick="window.location.href = '';">Resume
           </div>
      </div>
 
      </div>
      </div>
 
-     <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-0 d-flex">
-     <div class="card flex-grow mx-auto">
+     <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-2 px-4 p-sm-0">
+     <div class="card p-xs-1 px-sm-2 h-100 ">
      <div class="card-body d-flex flex-column ">
-        <img src="mca/akash_kumar.jpeg" alt="Team_image" class="card-img-top img-fluid ">
+        <img src="mca/akash_kumar.jpeg" alt="Team_image" class="card-img-top img-fluid align-self-center img-thumbnail">
       <h4 class="card-caption text-center">Akash Kumar</h4>
       <p class="card-text my-2 dob mb-0"><b>Date of Birth :</b>05/07/1995 </p>
       <p class="card-text my-2 mob mb-0"><b>Mobile :</b>   9554188685 </p>
       <p class="card-text my-2 email shadow"><b>E-mail</b><br>cccakash@gmail.com</p> 
-         <p class="card-text my-2 skill shadow"><b>Skills:</b> <span class="badge">C</span><span class="badge">C++</span><span class="badge">JAVA</span><span class="badge">DATA STRUCTURE & ALGORITHM</span><span class="badge">PROBLEM SOLVING</p>
+         <p class="card-text my-2 skill shadow"><b>Skills:</b> <span class="badge">C</span><span class="badge">C++</span><span class="badge">JAVA</span><span class="badge">DATA STRUCTURE & ALGORITHM</span><span class="badge">PROBLEM SOLVING</span></p>
         <p class="card-text my-2 intern"><b>Internships/Projects :</b>None</p>
         <div class="row d-flex justify-content-around">
-        <button class="shadow btn btn-primary col-5 m-1"  onclick="window.location.href = 'https://drive.google.com/file/d/1OnqtXp8q8WmdY21vVZifRQR4JLcIVrmm/view?usp=sharing';">Resume
+        <button class="shadow btn btn-primary col-5 m-1 px-sm-1"  onclick="window.location.href = 'https://drive.google.com/file/d/1OnqtXp8q8WmdY21vVZifRQR4JLcIVrmm/view?usp=sharing';">Resume
           </div>
     </div>
   </div>
   </div>
  
-  <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-0 d-flex">
-  <div class="card flex-grow mx-auto">
+  <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-2 px-4 p-sm-0">
+  <div class="card p-xs-1 px-sm-2 h-100 ">
     <div class="card-body d-flex flex-column ">
-        <img src="mca/akash_sri.jpeg" alt="Team_image" class="card-img-top img-fluid ">
+        <img src="mca/akash_sri.jpeg" alt="Team_image" class="card-img-top img-fluid align-self-center img-thumbnail">
       <h4 class="card-caption text-center">Akash srivastava</h4>
     
       <p class="card-text my-2 dob mb-0"><b>Date of Birth :</b>11/01/1997</p>
       <p class="card-text my-2 mob mb-0"><b>Mobile :</b>   7007969559 </p>
       <p class="card-text my-2 email shadow"><b>E-mail</b><br>mr.akashsriz@gmail.com </p> 
-         <p class="card-text my-2 skill shadow"><b>Skills:</b> <span class="badge">c</span><span class="badge">java</span><span class="badge">DSA</p>
+         <p class="card-text my-2 skill shadow"><b>Skills:</b> <span class="badge">c</span><span class="badge">java</span><span class="badge">DSA</span></p>
         <p class="card-text my-2 intern"><b>Internships/Projects :</b>None</p>
           <div class="row d-flex justify-content-around">
-          <button class="shadow btn btn-primary col-5 m-1"  onclick="window.location.href = 'https://docs.google.com/document/d/1dVxFBSIiajfAeke0jJ7BuKv6FjrrkNRy/edit?usp=sharing&ouid=112295463673463502545&rtpof=true&sd=true';">Resume
+          <button class="shadow btn btn-primary col-5 m-1 px-sm-1"  onclick="window.location.href = 'https://docs.google.com/document/d/1dVxFBSIiajfAeke0jJ7BuKv6FjrrkNRy/edit?usp=sharing&ouid=112295463673463502545&rtpof=true&sd=true';">Resume
 </div>
     </div>
 
     </div>
     </div>
 
-    <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-0 d-flex">
-    <div class="card flex-grow mx-auto">
+    <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-2 px-4 p-sm-0">
+    <div class="card p-xs-1 px-sm-2 h-100 ">
     <div class="card-body d-flex flex-column ">
-        <img src="mca/akash_mohan.jpeg" alt="Team_image" class="card-img-top img-fluid ">
+        <img src="mca/akash_mohan.jpeg" alt="Team_image" class="card-img-top img-fluid align-self-center img-thumbnail">
       <h4 class="card-caption text-center">Akash Mohan Singh</h4>
     
       <p class="card-text my-2 dob mb-0"><b>Date of Birth :</b>30/12/1995</p>
@@ -214,17 +214,17 @@
 
          <p class="card-text my-2 intern"><b>Internships/Projects :</b>None</p>
          <div class="row d-flex justify-content-around">
-         <button class="shadow btn btn-primary col-5 m-1"  onclick="window.location.href = 'https://drive.google.com/folderview?id=1ReGT7PzXb7trSohfS-novJOlL6xCqKIA';">Resume
+         <button class="shadow btn btn-primary col-5 m-1 px-sm-1"  onclick="window.location.href = 'https://drive.google.com/folderview?id=1ReGT7PzXb7trSohfS-novJOlL6xCqKIA';">Resume
           </div>
      </div>
 
      </div>
      </div>
 
-     <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-0 d-flex">
-     <div class="card flex-grow mx-auto">
+     <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-2 px-4 p-sm-0">
+     <div class="card p-xs-1 px-sm-2 h-100 ">
      <div class="card-body d-flex flex-column ">
-        <img src="mca/AKHANDA3.jpeg" alt="Team_image" class="card-img-top img-fluid ">
+        <img src="mca/AKHANDA3.jpeg" alt="Team_image" class="card-img-top img-fluid align-self-center img-thumbnail">
       <h4 class="card-caption text-center">Akhand Pratap Singh</h4>
     
       <p class="card-text my-2 dob mb-0"><b>Date of Birth :</b>12/11/1996 </p>
@@ -232,48 +232,48 @@
       <p class="card-text my-2 email shadow"><b>E-mail</b><br>akhandpratap121196@gmail.com </p> 
          <p class="card-text my-2 skill shadow"><b>Skills:</b> <span class="badge">C</span><span class="badge">C++</span><span class="badge">JAVA</span><span class="badge">DSA</span><span class="badge">HTML</span><span class="badge">
     JAVASCRIPT</span><span class="badge">CSS</span><span class="badge">BOOTSTRAP</span><span class="badge">
-       NODEJS</span><span class="badge">REACTJS</span><span class="badge">MONGODB</p>
+       NODEJS</span><span class="badge">REACTJS</span><span class="badge">MONGODB</span></p>
         <p class="card-text my-2 intern"><b>Internships/Projects :</b>None</p>
         <div class="row d-flex justify-content-around">
-        <button class="shadow btn btn-primary col-5 m-1"  onclick="window.location.href = 'https://drive.google.com/file/d/134gWIl1bKInsHJKMMvegkb9H-Udj00e7/view?usp=sharing';">Resume
+        <button class="shadow btn btn-primary col-5 m-1 px-sm-1"  onclick="window.location.href = 'https://drive.google.com/file/d/134gWIl1bKInsHJKMMvegkb9H-Udj00e7/view?usp=sharing';">Resume
           </div>
     </div>
   </div>
   </div>
   
 
-  <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-0 d-flex">
-  <div class="card flex-grow mx-auto">
+  <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-2 px-4 p-sm-0">
+  <div class="card p-xs-1 px-sm-2 h-100 ">
     <div class="card-body d-flex flex-column ">
-        <img src="mca/placeholder.jpeg" alt="Team_image" class="card-img-top img-fluid ">
+        <img src="mca/placeholder.jpeg" alt="Team_image" class="card-img-top img-fluid align-self-center img-thumbnail">
       <h4 class="card-caption text-center">Ambuj Kumar</h4>
     
       <p class="card-text my-2 dob mb-0"><b>Date of Birth :</b>25/03/1998 </p>
       <p class="card-text my-2 mob mb-0"><b>Mobile :</b>    +91 9532909199 </p>
       <p class="card-text my-2 email shadow"><b>E-mail</b><br>anuj.ambuj22@gmail.com </p> 
-         <p class="card-text my-2 skill shadow"><b>Skills:</b> <span class="badge">Attractive Front-End Designer</span><span class="badge"> UI/Ux </span><span class="badge"> System Administration & IT ( Security )</p>
+         <p class="card-text my-2 skill shadow"><b>Skills:</b> <span class="badge">Attractive Front-End Designer</span><span class="badge"> UI/Ux </span><span class="badge"> System Administration & IT ( Security )</span></p>
         <p class="card-text my-2 intern"><b>Internships/Projects : </b>INTERNSHALA (WebMOBI)</p>
         <div class="row d-flex justify-content-around">
-        <button class="shadow btn btn-primary col-5 m-1"  onclick="window.location.href = 'https://drive.google.com/file/d/1eXfW4QtHSVH8Baxmivw22J8goqBnQdg8/view?usp=sharing';">Resume
+        <button class="shadow btn btn-primary col-5 m-1 px-sm-1"  onclick="window.location.href = 'https://drive.google.com/file/d/1eXfW4QtHSVH8Baxmivw22J8goqBnQdg8/view?usp=sharing';">Resume
           </div>
     </div>
 
     </div>
     </div>
 
-    <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-0 d-flex">
-    <div class="card flex-grow mx-auto">
+    <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-2 px-4 p-sm-0">
+    <div class="card p-xs-1 px-sm-2 h-100 ">
     <div class="card-body d-flex flex-column ">
-        <img src="mca/anamika.jpeg" alt="Team_image" class="card-img-top img-fluid ">
+        <img src="mca/anamika.jpeg" alt="Team_image" class="card-img-top img-fluid align-self-center img-thumbnail">
       <h4 class="card-caption text-center">Anamika Singh</h4>
     
       <p class="card-text my-2 dob mb-0"><b>Date of Birth :</b>17/02/1999</p>
       <p class="card-text my-2 mob mb-0"><b>Mobile :</b>8765409044</p>
       <p class="card-text my-2 email shadow"><b>E-mail</b><br>anamikasingh170299@gmail.com</p> 
-         <p class="card-text my-2 skill shadow"><b>Skills:</b> <span class="badge">C</span><span class="badge">HTML </span><span class="badge">CSS </span><span class="badge">python</p>
+         <p class="card-text my-2 skill shadow"><b>Skills:</b> <span class="badge">C</span><span class="badge">HTML </span><span class="badge">CSS </span><span class="badge">python</span></p>
          <p class="card-text my-2 intern"><b>Internships/Projects :</b>None</p>
          <div class="row d-flex justify-content-around">
-         <button class="shadow btn btn-primary col-5 m-1"  onclick="window.location.href = 'https://drive.google.com/file/d/11zqf_b5ilJ0d5X1Db7OPR8fV1-q-_vom/view?usp=drivesdk';">Resume
+         <button class="shadow btn btn-primary col-5 m-1 px-sm-1"  onclick="window.location.href = 'https://drive.google.com/file/d/11zqf_b5ilJ0d5X1Db7OPR8fV1-q-_vom/view?usp=drivesdk';">Resume
           </div>
      
      </div>
@@ -281,19 +281,19 @@
      </div>
      </div>
 
-     <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-0 d-flex">
-     <div class="card flex-grow mx-auto">
+     <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-2 px-4 p-sm-0">
+     <div class="card p-xs-1 px-sm-2 h-100 ">
      <div class="card-body d-flex flex-column ">
-        <img src="mca/anjali.jpeg" alt="Team_image" class="card-img-top img-fluid ">
+        <img src="mca/anjali.jpeg" alt="Team_image" class="card-img-top img-fluid align-self-center img-thumbnail">
       <h4 class="card-caption text-center">Anjali Mishra</h4>
     
       <p class="card-text my-2 dob mb-0"><b>Date of Birth :</b>22/10/1998 </p>
       <p class="card-text my-2 mob mb-0"><b>Mobile :</b>   6204472579 </p>
       <p class="card-text my-2 email shadow"><b>E-mail</b><br>mishra.anjali.arm@gmail.com</p> 
-         <p class="card-text my-2 skill shadow"><b>Skills:</b> <span class="badge">Python</span><span class="badge">HTML</span><span class="badge">CSS</span><span class="badge">JavaScript</span><span class="badge"> Excel</span><span class="badge">DSA</span><span class="badge"> Pytorch</p>
+         <p class="card-text my-2 skill shadow"><b>Skills:</b> <span class="badge">Python</span><span class="badge">HTML</span><span class="badge">CSS</span><span class="badge">JavaScript</span><span class="badge"> Excel</span><span class="badge">DSA</span><span class="badge"> Pytorch</span></p>
         <p class="card-text my-2 intern"><b>Internships/Projects :</b>None</p>
         <div class="row d-flex justify-content-around">
-        <button class="shadow btn btn-primary col-5 m-1"  onclick="window.location.href = 'https://drive.google.com/file/d/13-S_IAxKcZULuPBXyAfu_la_t4Tsn3Rk/view?usp=sharing';">Resume
+        <button class="shadow btn btn-primary col-5 m-1 px-sm-1"  onclick="window.location.href = 'https://drive.google.com/file/d/13-S_IAxKcZULuPBXyAfu_la_t4Tsn3Rk/view?usp=sharing';">Resume
           </div>
     </div>
   </div>
@@ -303,39 +303,39 @@
   </div>
 
 
-  <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-0 d-flex">
-  <div class="card flex-grow mx-auto">
+  <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-2 px-4 p-sm-0">
+  <div class="card p-xs-1 px-sm-2 h-100 ">
     <div class="card-body d-flex flex-column ">
-        <img src="mca/Anupam Manish Guria.jpeg" alt="Team_image" class="card-img-top img-fluid ">
+        <img src="mca/Anupam Manish Guria.jpeg" alt="Team_image" class="card-img-top img-fluid align-self-center img-thumbnail">
       <h4 class="card-caption text-center">Anupam Manish Guria</h4>
     
       <p class="card-text my-2 dob mb-0"><b>Date of Birth :</b>18/02/1999 </p>
       <p class="card-text my-2 mob mb-0"><b>Mobile :</b>    +91 7903325846 </p>
       <p class="card-text my-2 email shadow"><b>E-mail</b><br>amanishguria@gmail.com </p> 
-         <p class="card-text my-2 skill shadow"><b>Skills:</b> <span class="badge">C</span><span class="badge">C++</span><span class="badge">DSA</p>
-        <p class="card-text my-2 intern"><b>Internships/Projects :</b>Front end Developer </span><span class="badge">RSG Software Services</p>
+         <p class="card-text my-2 skill shadow"><b>Skills:</b> <span class="badge">C</span><span class="badge">C++</span><span class="badge">DSA</span></p>
+        <p class="card-text my-2 intern"><b>Internships/Projects :</b>Front end Developer at RSG Software Services</p>
         <div class="row d-flex justify-content-around">
-        <button class="shadow btn btn-primary col-5 m-1"  onclick="window.location.href = 'https://drive.google.com/file/d/1X40S6bcQoKbSy-YwKtQG2fDL0aFkRJIo/view?usp=sharing';">Resume
+        <button class="shadow btn btn-primary col-5 m-1 px-sm-1"  onclick="window.location.href = 'https://drive.google.com/file/d/1X40S6bcQoKbSy-YwKtQG2fDL0aFkRJIo/view?usp=sharing';">Resume
           </div>
     </div>
 
     </div>
     </div>
 
-    <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-0 d-flex">
-    <div class="card flex-grow mx-auto">
+    <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-2 px-4 p-sm-0">
+    <div class="card p-xs-1 px-sm-2 h-100 ">
     <div class="card-body d-flex flex-column ">
-        <img src="mca/arpit.jpeg" alt="Team_image" class="card-img-top img-fluid ">
+        <img src="mca/arpit.jpeg" alt="Team_image" class="card-img-top img-fluid align-self-center img-thumbnail">
       <h4 class="card-caption text-center">Arpit Verma</h4>
     
       <p class="card-text my-2 dob mb-0"><b>Date of Birth :</b>01/01/1998</p>
       <p class="card-text my-2 mob mb-0"><b>Mobile :</b>9621795858</p>
       <p class="card-text my-2 email shadow"><b>E-mail</b><br>arpitverma.123.in@gmail.com</p> 
-         <p class="card-text my-2 skill shadow"><b>Skills:</b> <span class="badge">java</span><span class="badge">javascript</span><span class="badge">C</span><span class="badge">C++</span><span class="badge">My SQL</p>
+         <p class="card-text my-2 skill shadow"><b>Skills:</b> <span class="badge">java</span><span class="badge">javascript</span><span class="badge">C</span><span class="badge">C++</span><span class="badge">My SQL</span></p>
          <p class="card-text my-2 intern"><b>Internships/Projects :</b>None</p>
          
          <div class="row d-flex justify-content-around">
-         <button class="shadow btn btn-primary col-5 m-1"  onclick="window.location.href = 'https://drive.google.com/file/d/1HxRzsEf-cFEQmyG3PFV1zxLVALBh51iD/view?usp=sharing';">Resume
+         <button class="shadow btn btn-primary col-5 m-1 px-sm-1"  onclick="window.location.href = 'https://drive.google.com/file/d/1HxRzsEf-cFEQmyG3PFV1zxLVALBh51iD/view?usp=sharing';">Resume
           </div>
      
      </div>
@@ -343,110 +343,109 @@
      </div>
      </div>
 
-     <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-0 d-flex">
-     <div class="card flex-grow mx-auto">
+     <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-2 px-4 p-sm-0">
+     <div class="card p-xs-1 px-sm-2 h-100 ">
      <div class="card-body d-flex flex-column ">
-        <img src="mca/aastha.jpeg" alt="Team_image" class="card-img-top img-fluid ">
+        <img src="mca/aastha.jpeg" alt="Team_image" class="card-img-top img-fluid align-self-center img-thumbnail">
       <h4 class="card-caption text-center">Astha Singh</h4>
     
       <p class="card-text my-2 dob mb-0"><b>Date of Birth :</b>01/01/1996</p>
       <p class="card-text my-2 mob mb-0"><b>Mobile :</b>   9140715125 </p>
       <p class="card-text my-2 email shadow"><b>E-mail</b><br>asthasingh999@gmail.com</p> 
-         <p class="card-text my-2 skill shadow"><b>Skills:</b> <span class="badge">Python</span><span class="badge">Java</span><span class="badge">Problem solving</span><span class="badge"> Data Science</span><span class="badge">MySql</p>
+         <p class="card-text my-2 skill shadow"><b>Skills:</b> <span class="badge">Python</span><span class="badge">Java</span><span class="badge">Problem solving</span><span class="badge"> Data Science</span><span class="badge">MySql</span></p>
         <p class="card-text my-2 intern"><b>Internships/Projects :</b>None</p>
       
         <div class="row d-flex justify-content-around">
-        <button class="shadow btn btn-primary col-5 m-1"  onclick="window.location.href = 'https://drive.google.com/file/d/1-_qKojdACoZ8PlLSiudcx273Fy1YWem5/view?usp=sharing';">Resume
+        <button class="shadow btn btn-primary col-5 m-1 px-sm-1"  onclick="window.location.href = 'https://drive.google.com/file/d/1-_qKojdACoZ8PlLSiudcx273Fy1YWem5/view?usp=sharing';">Resume
           </div>
     </div>
   </div>
   </div>
 
-  <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-0 d-flex">
-  <div class="card flex-grow mx-auto">
+  <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-2 px-4 p-sm-0">
+  <div class="card p-xs-1 px-sm-2 h-100 ">
     <div class="card-body d-flex flex-column ">
-        <img src="mca/atish.jpeg" alt="Team_image" class="card-img-top img-fluid ">
+        <img src="mca/atish.jpeg" alt="Team_image" class="card-img-top img-fluid align-self-center img-thumbnail">
       <h4 class="card-caption text-center">Atish Kumar Kushwaha</h4>
     
       <p class="card-text my-2 dob mb-0"><b>Date of Birth :</b>10/08/1998 </p>
       <p class="card-text my-2 mob mb-0"><b>Mobile :</b>    +91 7271035037 </p>
       <p class="card-text my-2 email shadow"><b>E-mail</b><br>atishkushwaha148@gmail.com </p> 
-         <p class="card-text my-2 skill shadow"><b>Skills:</b> <span class="badge">C</span><span class="badge">C++</span><span class="badge">Problem Solving</span><span class="badge">Java</p>
-        <p class="card-text my-2 intern"><b>Internships/Projects :</b>INTERNSHALA (WebMOBI)</p>
+        <p class="card-text my-2 intern"><b>Internships/Projects : </b>INTERNSHALA (WebMOBI)</p>
         <div class="row d-flex justify-content-around">
-        <button class="shadow btn btn-primary col-5 m-1"  onclick="window.location.href = 'https://drive.google.com/file/d/1VwFWdY3Ixc6gUg-QeML4NqAvtYXlhIdX/view?usp=sharing';">Resume
+        <button class="shadow btn btn-primary col-5 m-1 px-sm-1"  onclick="window.location.href = 'https://drive.google.com/file/d/1VwFWdY3Ixc6gUg-QeML4NqAvtYXlhIdX/view?usp=sharing';">Resume
           </div>
     </div>
     </div>
     </div>
 
-    <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-0 d-flex">
-    <div class="card flex-grow mx-auto">
+    <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-2 px-4 p-sm-0">
+    <div class="card p-xs-1 px-sm-2 h-100 ">
     <div class="card-body d-flex flex-column ">
-        <img src="mca/placeholder.jpeg" alt="Team_image" class="card-img-top img-fluid ">
+        <img src="mca/placeholder.jpeg" alt="Team_image" class="card-img-top img-fluid align-self-center img-thumbnail">
       <h4 class="card-caption text-center">Avesh kumar</h4>
     
       <p class="card-text my-2 dob mb-0"><b>Date of Birth :</b>05/08/1997</p>
       <p class="card-text my-2 mob mb-0"><b>Mobile :</b>9045851817</p>
       <p class="card-text my-2 email shadow"><b>E-mail</b><br>katiyaravesh333@gmail.com</p> 
-         <p class="card-text my-2 skill shadow"><b>Skills:</b> <span class="badge">web developer</span><span class="badge">DBMS</span><span class="badge">DSA</p>
+         <p class="card-text my-2 skill shadow"><b>Skills:</b> <span class="badge">web developer</span><span class="badge">DBMS</span><span class="badge">DSA</span></p>
          <p class="card-text my-2 intern"><b>Internships/Projects :</b>None</p>   
          <div class="row d-flex justify-content-around">
-         <button class="shadow btn btn-primary col-5 m-1"  onclick="window.location.href = '';">Resume
+         <button class="shadow btn btn-primary col-5 m-1 px-sm-1"  onclick="window.location.href = '';">Resume
           </div>
      </div>
      </div>
      </div>
 
-     <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-0 d-flex">
-     <div class="card flex-grow mx-auto">
+     <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-2 px-4 p-sm-0">
+     <div class="card p-xs-1 px-sm-2 h-100 ">
      <div class="card-body d-flex flex-column ">
-        <img src="mca/ayush nigam.jpeg " alt="Team_image" class="card-img-top img-fluid ">
+        <img src="mca/ayush nigam.jpeg " alt="Team_image" class="card-img-top img-fluid align-self-center img-thumbnail">
       <h4 class="card-caption text-center">AYUSH NIGAM</h4>
     
       <p class="card-text my-2 dob mb-0"><b>Date of Birth :</b>20/10/1997 </p>
       <p class="card-text my-2 mob mb-0"><b>Mobile :</b>   8858042448 </p>
       <p class="card-text my-2 email shadow"><b>E-mail</b><br>officialnigam257@gmail.com</p> 
-         <p class="card-text my-2 skill shadow"><b>Skills:</b> <span class="badge">Python</span><span class="badge"> Problem Solving </span><span class="badge"> Data Science </span><span class="badge"> MySql</p>
+         <p class="card-text my-2 skill shadow"><b>Skills:</b> <span class="badge">Python</span><span class="badge"> Problem Solving </span><span class="badge"> Data Science </span><span class="badge"> MySql</span></p>
         <p class="card-text my-2 intern"><b>Internships/Projects :</b>None</p>
         <div class="row d-flex justify-content-around">
-        <button class="shadow btn btn-primary col-5 m-1"  onclick="window.location.href = 'https://drive.google.com/file/d/1VhbMMttEiEqkdKbi0bzurBl97YDGEJvd/view?usp=sharing';">Resume
+        <button class="shadow btn btn-primary col-5 m-1 px-sm-1"  onclick="window.location.href = 'https://drive.google.com/file/d/1VhbMMttEiEqkdKbi0bzurBl97YDGEJvd/view?usp=sharing';">Resume
           </div>
     </div>
   </div>
   </div>
 
-  <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-0 d-flex">
-  <div class="card flex-grow mx-auto">
+  <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-2 px-4 p-sm-0">
+  <div class="card p-xs-1 px-sm-2 h-100 ">
     <div class="card-body d-flex flex-column ">
-        <img src="mca/placeholder.jpeg" alt="Team_image" class="card-img-top img-fluid ">
+        <img src="mca/placeholder.jpeg" alt="Team_image" class="card-img-top img-fluid align-self-center img-thumbnail">
       <h4 class="card-caption text-center">Bhanu Bisen</h4>
       <p class="card-text my-2 dob mb-0"><b>Date of Birth :</b>14/10/1996 </p>
       <p class="card-text my-2 mob mb-0"><b>Mobile :</b>    +91 8010983157 </p>
       <p class="card-text my-2 email shadow"><b>E-mail</b><br>bhanubisen96@gmail.com  </p> 
-         <p class="card-text my-2 skill shadow"><b>Skills:</b> <span class="badge">python</span><span class="badge">java</span><span class="badge">c </span><span class="badge">Mysql</span><span class="badge">problem solving</p>
+         <p class="card-text my-2 skill shadow"><b>Skills:</b> <span class="badge">python</span><span class="badge">java</span><span class="badge">c </span><span class="badge">Mysql</span><span class="badge">problem solving</span></p>
         <p class="card-text my-2 intern"><b>Internships/Projects :</b>None</p>
         <div class="row d-flex justify-content-around">
-        <button class="shadow btn btn-primary col-5 m-1"  onclick="window.location.href = 'https://drive.google.com/file/d/1Y44mg6W-2xMcUpjvgat4HQh6pKgcXRqT/view?usp=drivesdk';">Resume
+        <button class="shadow btn btn-primary col-5 m-1 px-sm-1"  onclick="window.location.href = 'https://drive.google.com/file/d/1Y44mg6W-2xMcUpjvgat4HQh6pKgcXRqT/view?usp=drivesdk';">Resume
           </div>
     </div>
 
     </div>
     </div>
 
-    <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-0 d-flex">
-    <div class="card flex-grow mx-auto">
+    <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-2 px-4 p-sm-0">
+    <div class="card p-xs-1 px-sm-2 h-100 ">
     <div class="card-body d-flex flex-column ">
-        <img src="mca/chandan.jpeg" alt="Team_image" class="card-img-top img-fluid ">
+        <img src="mca/chandan.jpeg" alt="Team_image" class="card-img-top img-fluid align-self-center img-thumbnail">
       <h4 class="card-caption text-center">Chandan Kumar</h4>
     
       <p class="card-text my-2 dob mb-0"><b>Date of Birth :</b></p>
       <p class="card-text my-2 mob mb-0"><b>Mobile :</b>8862868469</p>
       <p class="card-text my-2 email shadow"><b>E-mail</b><br>krchandan0727@gmail.com</p> 
-         <p class="card-text my-2 skill shadow"><b>Skills:</b> <span class="badge">C</span><span class="badge">corejava</span><span class="badge"> Data structures & Alogorithms</p>
+         <p class="card-text my-2 skill shadow"><b>Skills:</b> <span class="badge">C</span><span class="badge">corejava</span><span class="badge"> Data structures & Alogorithms</span></p>
          <p class="card-text my-2 intern"><b>Internships/Projects :</b>None</p>
          <div class="row d-flex justify-content-around">
-         <button class="shadow btn btn-primary col-5 m-1"  onclick="window.location.href = 'https://drive.google.com/file/d/1qq-ATnd5lMgSMAcdXtTu_JhYyRmGg-MQ/view?usp=sharing';">Resume
+         <button class="shadow btn btn-primary col-5 m-1 px-sm-1"  onclick="window.location.href = 'https://drive.google.com/file/d/1qq-ATnd5lMgSMAcdXtTu_JhYyRmGg-MQ/view?usp=sharing';">Resume
           </div>
      
      </div>
@@ -454,470 +453,470 @@
      </div>
      </div>
 
-     <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-0 d-flex">
-     <div class="card flex-grow mx-auto">
+     <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-2 px-4 p-sm-0">
+     <div class="card p-xs-1 px-sm-2 h-100 ">
      <div class="card-body d-flex flex-column ">
-        <img src="mca/placeholder.jpeg" alt="Team_image" class="card-img-top img-fluid ">
+        <img src="mca/placeholder.jpeg" alt="Team_image" class="card-img-top img-fluid align-self-center img-thumbnail">
       <h4 class="card-caption text-center">Jeetaram Pahan</h4>
     
       <p class="card-text my-2 dob mb-0"><b>Date of Birth :</b>20/04/1998</p>
       <p class="card-text my-2 mob mb-0"><b>Mobile :</b>   8102809920 </p>
       <p class="card-text my-2 email shadow"><b>E-mail</b><br>jeetrampahan1998@gmail.com</p> 
-         <p class="card-text my-2 skill shadow"><b>Skills:</b> <span class="badge">C </span><span class="badge">C++</span><span class="badge">JAVA</span><span class="badge">PYTHON</span><span class="badge">HTML</span><span class="badge">CSS</span><span class="badge">JAVASCRIPT</span><span class="badge">PHP</p>
+         <p class="card-text my-2 skill shadow"><b>Skills:</b> <span class="badge">C </span><span class="badge">C++</span><span class="badge">JAVA</span><span class="badge">PYTHON</span><span class="badge">HTML</span><span class="badge">CSS</span><span class="badge">JAVASCRIPT</span><span class="badge">PHP</span></p>
         <p class="card-text my-2 intern"><b>Internships/Projects :</b>None</p>
         <div class="row d-flex justify-content-around">
-        <button class="shadow btn btn-primary col-5 m-1"  onclick="window.location.href = 'https://docs.google.com/document/d/1sSZ6Z68lkza2r-nLMzNesEB1Q1l7iojR/edit?usp=sharing&ouid=105810411004894972148&rtpof=true&sd=true';">Resume
+        <button class="shadow btn btn-primary col-5 m-1 px-sm-1"  onclick="window.location.href = 'https://docs.google.com/document/d/1sSZ6Z68lkza2r-nLMzNesEB1Q1l7iojR/edit?usp=sharing&ouid=105810411004894972148&rtpof=true&sd=true';">Resume
           </div>
     </div>
   </div>
   </div>
 
-  <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-0 d-flex">
-  <div class="card flex-grow mx-auto">
+  <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-2 px-4 p-sm-0">
+  <div class="card p-xs-1 px-sm-2 h-100 ">
     <div class="card-body d-flex flex-column ">
-        <img src="mca/placeholder.jpeg" alt="Team_image" class="card-img-top img-fluid ">
+        <img src="mca/placeholder.jpeg" alt="Team_image" class="card-img-top img-fluid align-self-center img-thumbnail">
       <h4 class="card-caption text-center">Jitendra Kumar7</h4>
     
       <p class="card-text my-2 dob mb-0"><b>Date of Birth :</b>17/07/1997</p>
       <p class="card-text my-2 mob mb-0"><b>Mobile :</b>    +91 9919717266 </p>
       <p class="card-text my-2 email shadow"><b>E-mail</b><br>jitender9919@gmail.com  </p> 
-         <p class="card-text my-2 skill shadow"><b>Skills:</b> <span class="badge">C</span><span class="badge">C++</span><span class="badge">Python</span><span class="badge">JAVA</span><span class="badge">HTML</span><span class="badge">CSS</span><span class="badge"> SQL</p>
+         <p class="card-text my-2 skill shadow"><b>Skills:</b> <span class="badge">C</span><span class="badge">C++</span><span class="badge">Python</span><span class="badge">JAVA</span><span class="badge">HTML</span><span class="badge">CSS</span><span class="badge"> SQL</span></p>
         <p class="card-text my-2 intern"><b>Internships/Projects :</b>Web Development Intern, Suvan Consultants & Technology</p>
         <div class="row d-flex justify-content-around">
-        <button class="shadow btn btn-primary col-5 m-1"  onclick="window.location.href = 'https://drive.google.com/file/d/1db_xz8g2uDlNUd2B5fIS5gtonlmBDMFB/view?usp=sharing';">Resume
+        <button class="shadow btn btn-primary col-5 m-1 px-sm-1"  onclick="window.location.href = 'https://drive.google.com/file/d/1db_xz8g2uDlNUd2B5fIS5gtonlmBDMFB/view?usp=sharing';">Resume
           </div>
     </div>
     </div>
     </div>
 
-    <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-0 d-flex">
-    <div class="card flex-grow mx-auto">
+    <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-2 px-4 p-sm-0">
+    <div class="card p-xs-1 px-sm-2 h-100 ">
     <div class="card-body d-flex flex-column ">
-        <img src="mca/abha.jpeg" alt="Team_image" class="card-img-top img-fluid ">
+        <img src="mca/abha.jpeg" alt="Team_image" class="card-img-top img-fluid align-self-center img-thumbnail">
       <h4 class="card-caption text-center">KM Abha</h4>
     
-      <p class="card-text my-2 dob mb-0"><b>Date of Birth :25/07/2000</b></p>
+      <p class="card-text my-2 dob mb-0"><b>Date of Birth :</b> 25/07/2000</p>
       <p class="card-text my-2 mob mb-0"><b>Mobile :</b>9756010067</p>
       <p class="card-text my-2 email shadow"><b>E-mail</b><br>abhasingh00522@gmail.com</p> 
-         <p class="card-text my-2 skill shadow"><b>Skills:</b> <span class="badge">Fullstack developer</span><span class="badge">Networking</span><span class="badge">Database Administrator</p>
+         <p class="card-text my-2 skill shadow"><b>Skills:</b> <span class="badge">Fullstack developer</span><span class="badge">Networking</span><span class="badge">Database Administrator</span></p>
          <p class="card-text my-2 intern"><b>Internships/Projects :</b>Web Development Intern, Internshala</p>
          <div class="row d-flex justify-content-around">
-         <button class="shadow btn btn-primary col-5 m-1"  onclick="window.location.href = 'https://drive.google.com/file/d/121dK3mRZNxsY9uydogjTVpgtLd_knkU4/view?usp=sharing';">Resume
+         <button class="shadow btn btn-primary col-5 m-1 px-sm-1"  onclick="window.location.href = 'https://drive.google.com/file/d/121dK3mRZNxsY9uydogjTVpgtLd_knkU4/view?usp=sharing';">Resume
           </div>
      </div>
      </div>
      </div>
 
-     <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-0 d-flex">
-     <div class="card flex-grow mx-auto">
+     <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-2 px-4 p-sm-0">
+     <div class="card p-xs-1 px-sm-2 h-100 ">
      <div class="card-body d-flex flex-column ">
-        <img src="mca/mukesh_mandoli.jpeg" alt="Team_image" class="card-img-top img-fluid ">
+        <img src="mca/mukesh_mandoli.jpeg" alt="Team_image" class="card-img-top img-fluid align-self-center img-thumbnail">
       <h4 class="card-caption text-center">Mukesh Mandloi</h4>
     
       <p class="card-text my-2 dob mb-0"><b>Date of Birth :</b>20/06/1995</p>
       <p class="card-text my-2 mob mb-0"><b>Mobile :</b>   7803842656 </p>
       <p class="card-text my-2 email shadow"><b>E-mail</b><br>mukeshmandloi1612@gmail.com</p> 
-         <p class="card-text my-2 skill shadow"><b>Skills:</b> <span class="badge">C</span><span class="badge">C++</span><span class="badge">Data Structue & Algorithm</span><span class="badge">java</p>
+         <p class="card-text my-2 skill shadow"><b>Skills:</b> <span class="badge">C</span><span class="badge">C++</span><span class="badge">Data Structue & Algorithm</span><span class="badge">java</span></p>
         <p class="card-text my-2 intern"><b>Internships/Projects :</b>None</p>
         <div class="row d-flex justify-content-around">
-        <button class="shadow btn btn-primary col-5 m-1"  onclick="window.location.href = 'https://drive.google.com/file/d/1ItfQtGQcbGZ3_8uN7zJu3noZGdPsQ_OR/view?usp=drivesdk';">Resume
+        <button class="shadow btn btn-primary col-5 m-1 px-sm-1"  onclick="window.location.href = 'https://drive.google.com/file/d/1ItfQtGQcbGZ3_8uN7zJu3noZGdPsQ_OR/view?usp=drivesdk';">Resume
           </div>
     </div>
   </div>
   </div>
 
-  <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-0 d-flex">
-  <div class="card flex-grow mx-auto">
+  <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-2 px-4 p-sm-0">
+  <div class="card p-xs-1 px-sm-2 h-100 ">
     <div class="card-body d-flex flex-column ">
-        <img src="mca/placeholder.jpeg" alt="Team_image" class="card-img-top img-fluid ">
+        <img src="mca/placeholder.jpeg" alt="Team_image" class="card-img-top img-fluid align-self-center img-thumbnail">
       <h4 class="card-caption text-center">Muskan Agrawal</h4>
       <p class="card-text my-2 dob mb-0"><b>Date of Birth :</b>21/04/1998</p>
       <p class="card-text my-2 mob mb-0"><b>Mobile :</b> 9755389355 </p>
       <p class="card-text my-2 email shadow"><b>E-mail</b><br>muskanagrawal310@gmail.com  </p> 
-         <p class="card-text my-2 skill shadow"><b>Skills:</b> <span class="badge">Python</span><span class="badge">C++</span><span class="badge"> Django </span><span class="badge"> Flask </span><span class="badge">Html </span><span class="badge">CSS </span><span class="badge">Javascript</p>
-        <p class="card-text my-2 intern"><b>Internships/Projects :</b>Web Development Intern</span><span class="badge">Suvan Consultants & Technology</p>
+         <p class="card-text my-2 skill shadow"><b>Skills:</b> <span class="badge">Python</span><span class="badge">C++</span><span class="badge"> Django </span><span class="badge"> Flask </span><span class="badge">Html </span><span class="badge">CSS </span><span class="badge">Javascript</span></p>
+        <p class="card-text my-2 intern"><b>Internships/Projects :</b>Web Development Intern at Suvan Consultants & Technology</p>
         <div class="row d-flex justify-content-around">
-        <button class="shadow btn btn-primary col-5 m-1"  onclick="window.location.href = 'https://drive.google.com/file/d/1_I1s1lQBj0hA9DZ6GldZ5bLyPVg1UKY5/view?usp=sharing';">Resume
+        <button class="shadow btn btn-primary col-5 m-1 px-sm-1"  onclick="window.location.href = 'https://drive.google.com/file/d/1_I1s1lQBj0hA9DZ6GldZ5bLyPVg1UKY5/view?usp=sharing';">Resume
           </div>
     </div>
     </div>
     </div>
 
-    <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-0 d-flex">
-    <div class="card flex-grow mx-auto">
+    <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-2 px-4 p-sm-0">
+    <div class="card p-xs-1 px-sm-2 h-100 ">
     <div class="card-body d-flex flex-column ">
-        <img src="mca/pooja.jpeg" alt="Team_image" class="card-img-top img-fluid ">
+        <img src="mca/pooja.jpeg" alt="Team_image" class="card-img-top img-fluid align-self-center img-thumbnail">
       <h4 class="card-caption text-center">Pooja Sharma</h4>
     
       <p class="card-text my-2 dob mb-0"><b>Date of Birth :</b>05/10/1999</p>
       <p class="card-text my-2 mob mb-0"><b>Mobile :</b>8576064106</p>
       <p class="card-text my-2 email shadow"><b>E-mail</b><br>pooja417121@gmail.com</p> 
-         <p class="card-text my-2 skill shadow"><b>Skills:</b> <span class="badge">C</span><span class="badge">JAVA</span><span class="badge">html</span><span class="badge">css</span><span class="badge">javascript</span><span class="badge">mysql</span><span class="badge">DSA </span><span class="badge"> DBMS</p>
+         <p class="card-text my-2 skill shadow"><b>Skills:</b> <span class="badge">C</span><span class="badge">JAVA</span><span class="badge">html</span><span class="badge">css</span><span class="badge">javascript</span><span class="badge">mysql</span><span class="badge">DSA </span><span class="badge"> DBMS</span></p>
          <p class="card-text my-2 intern"><b>Internships/Projects :</b>Web Development Intern</span><span class="badge"> Internshala</p>
          <div class="row d-flex justify-content-around">
-         <button class="shadow btn btn-primary col-5 m-1"  onclick="window.location.href = 'https://drive.google.com/file/d/1Qs-w-kUO1TAfs9nAXvhdKGSOkUy9OXFm/view?usp=sharing';">Resume
+         <button class="shadow btn btn-primary col-5 m-1 px-sm-1"  onclick="window.location.href = 'https://drive.google.com/file/d/1Qs-w-kUO1TAfs9nAXvhdKGSOkUy9OXFm/view?usp=sharing';">Resume
           </div>
      </div>
      </div>
      </div>
 
-     <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-0 d-flex">
-     <div class="card flex-grow mx-auto">
+     <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-2 px-4 p-sm-0">
+     <div class="card p-xs-1 px-sm-2 h-100 ">
      <div class="card-body d-flex flex-column ">
-        <img src="mca/Pragati_Badola.jpeg" alt="Team_image" class="card-img-top img-fluid ">
+        <img src="mca/Pragati_Badola.jpeg" alt="Team_image" class="card-img-top img-fluid align-self-center img-thumbnail">
       <h4 class="card-caption text-center">Pragati Badola</h4>
     
       <p class="card-text my-2 dob mb-0"><b>Date of Birth :</b>23/07/1997</p>
       <p class="card-text my-2 mob mb-0"><b>Mobile :</b>   7579282515 </p>
       <p class="card-text my-2 email shadow"><b>E-mail</b><br>pragatibadola8@gmail.com</p> 
-         <p class="card-text my-2 skill shadow"><b>Skills:</b> <span class="badge">JAVA</span><span class="badge">DSA</span><span class="badge"> Problem Solving</span><span class="badge"> MySQL</span><span class="badge"> Web Development</p>
+         <p class="card-text my-2 skill shadow"><b>Skills:</b> <span class="badge">JAVA</span><span class="badge">DSA</span><span class="badge"> Problem Solving</span><span class="badge"> MySQL</span><span class="badge"> Web Development</span></p>
         <p class="card-text my-2 intern"><b>Internships/Projects :</b>None</p>
         <div class="row d-flex justify-content-around">
-        <button class="shadow btn btn-primary col-5 m-1"  onclick="window.location.href = '';">Resume
+        <button class="shadow btn btn-primary col-5 m-1 px-sm-1"  onclick="window.location.href = '';">Resume
           </div>
     </div>
   </div>
   </div>
 
-  <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-0 d-flex">
-  <div class="card flex-grow mx-auto">
+  <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-2 px-4 p-sm-0">
+  <div class="card p-xs-1 px-sm-2 h-100 ">
     <div class="card-body d-flex flex-column ">
-        <img src="mca/prakash.jpeg" alt="Team_image" class="card-img-top img-fluid ">
+        <img src="mca/prakash.jpeg" alt="Team_image" class="card-img-top img-fluid align-self-center img-thumbnail">
       <h4 class="card-caption text-center">Prakash Kumar</h4>
     
       <p class="card-text my-2 dob mb-0"><b>Date of Birth :</b>19/11/1998</p>
       <p class="card-text my-2 mob mb-0"><b>Mobile :</b>     8651005783 </p>
       <p class="card-text my-2 email shadow"><b>E-mail</b><br>19111998prakash@gmail.com </p> 
-         <p class="card-text my-2 skill shadow"><b>Skills:</b> <span class="badge">C</span><span class="badge">C++</span><span class="badge">Java</span><span class="badge">DSA</span><span class="badge"> Problem Solving</span><span class="badge"> Mysql</span><span class="badge"> ReactJs</p>
+         <p class="card-text my-2 skill shadow"><b>Skills:</b> <span class="badge">C</span><span class="badge">C++</span><span class="badge">Java</span><span class="badge">DSA</span><span class="badge"> Problem Solving</span><span class="badge"> Mysql</span><span class="badge"> ReactJs</span></p>
         <p class="card-text my-2 intern"><b>Internships/Projects :</b>None</p>
         <div class="row d-flex justify-content-around">
-        <button class="shadow btn btn-primary col-5 m-1"  onclick="window.location.href = 'https://drive.google.com/drive/folders/1-ZSktDCFAjicRJUMO76hoyInCwItczLc?usp=sharing';">Resume
+        <button class="shadow btn btn-primary col-5 m-1 px-sm-1"  onclick="window.location.href = 'https://drive.google.com/drive/folders/1-ZSktDCFAjicRJUMO76hoyInCwItczLc?usp=sharing';">Resume
           </div>
     </div>
     </div>
     </div>
 
-    <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-0 d-flex">
-    <div class="card flex-grow mx-auto">
+    <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-2 px-4 p-sm-0">
+    <div class="card p-xs-1 px-sm-2 h-100 ">
     <div class="card-body d-flex flex-column ">
-        <img src="mca/placeholder.jpeg" alt="Team_image" class="card-img-top img-fluid ">
+        <img src="mca/placeholder.jpeg" alt="Team_image" class="card-img-top img-fluid align-self-center img-thumbnail">
       <h4 class="card-caption text-center">Praveen Kumar</h4>
     
       <p class="card-text my-2 dob mb-0"><b>Date of Birth :</b>10/07/1998</p>
       <p class="card-text my-2 mob mb-0"><b>Mobile :</b>6387590093</p>
       <p class="card-text my-2 email shadow"><b>E-mail</b><br>kumarpraveen0439@gmail.com</p> 
-         <p class="card-text my-2 skill shadow"><b>Skills:</b> <span class="badge">C</span><span class="badge">C++</span><span class="badge"> CoreJava</span><span class="badge">DSA</span><span class="badge"> Problem Solving</span><span class="badge">Html</span><span class="badge">Css</span><span class="badge">Javascript</span><span class="badge">PHP</span><span class="badge"> MySql</p>
+         <p class="card-text my-2 skill shadow"><b>Skills:</b> <span class="badge">C</span><span class="badge">C++</span><span class="badge"> CoreJava</span><span class="badge">DSA</span><span class="badge"> Problem Solving</span><span class="badge">Html</span><span class="badge">Css</span><span class="badge">Javascript</span><span class="badge">PHP</span><span class="badge"> MySql</span></p>
          <p class="card-text my-2 intern"><b>Internships/Projects :</b>None</p>
          <div class="row d-flex justify-content-around">
-         <button class="shadow btn btn-primary col-5 m-1"  onclick="window.location.href = '';">Resume
+         <button class="shadow btn btn-primary col-5 m-1 px-sm-1"  onclick="window.location.href = '';">Resume
           </div>
      </div>
      </div>
      </div>
 
-     <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-0 d-flex">
-     <div class="card flex-grow mx-auto">
+     <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-2 px-4 p-sm-0">
+     <div class="card p-xs-1 px-sm-2 h-100 ">
      <div class="card-body d-flex flex-column ">
-        <img src="mca/priyanka.jpeg" alt="Team_image" class="card-img-top img-fluid ">
+        <img src="mca/priyanka.jpeg" alt="Team_image" class="card-img-top img-fluid align-self-center img-thumbnail">
       <h4 class="card-caption text-center">Priyanka Mishra</h4>
     
       <p class="card-text my-2 dob mb-0"><b>Date of Birth :</b>15/11/1999</p>
       <p class="card-text my-2 mob mb-0"><b>Mobile :</b>   8115996508 </p>
       <p class="card-text my-2 email shadow"><b>E-mail</b><br>priyanka186mishra@gmail.com</p> 
-         <p class="card-text my-2 skill shadow"><b>Skills:</b> <span class="badge">python</span><span class="badge">C</span><span class="badge"> Django </span><span class="badge"> Flask </span><span class="badge">Html </span><span class="badge">CSS </span><span class="badge">Javascript</span><span class="badge">MySql</p>
+         <p class="card-text my-2 skill shadow"><b>Skills:</b> <span class="badge">python</span><span class="badge">C</span><span class="badge"> Django </span><span class="badge"> Flask </span><span class="badge">Html </span><span class="badge">CSS </span><span class="badge">Javascript</span><span class="badge">MySql</span></p>
         <p class="card-text my-2 intern"><b>Internships/Projects :</b>None</p>
         <div class="row d-flex justify-content-around">
-        <button class="shadow btn btn-primary col-5 m-1"  onclick="window.location.href = 'https://drive.google.com/file/d/1FXMC7BqGPr-GGdizOQIqnp3-Uoq12NvS/view?usp=sharing';">Resume
+        <button class="shadow btn btn-primary col-5 m-1 px-sm-1"  onclick="window.location.href = 'https://drive.google.com/file/d/1FXMC7BqGPr-GGdizOQIqnp3-Uoq12NvS/view?usp=sharing';">Resume
           </div>
     </div>
   </div>
   </div>
 
-  <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-0 d-flex">
-  <div class="card flex-grow mx-auto">
+  <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-2 px-4 p-sm-0">
+  <div class="card p-xs-1 px-sm-2 h-100 ">
     <div class="card-body d-flex flex-column ">
-        <img src="mca/placeholder.jpeg" alt="Team_image" class="card-img-top img-fluid ">
+        <img src="mca/placeholder.jpeg" alt="Team_image" class="card-img-top img-fluid align-self-center img-thumbnail">
       <h4 class="card-caption text-center">Rahul Gupta</h4>
     
       <p class="card-text my-2 dob mb-0"><b>Date of Birth :</b>11/03/1999</p>
       <p class="card-text my-2 mob mb-0"><b>Mobile :</b>     6386757705 </p>
       <p class="card-text my-2 email shadow"><b>E-mail</b><br>officialgupta21@gmail.com </p> 
-         <p class="card-text my-2 skill shadow"><b>Skills:</b> <span class="badge">Python</span><span class="badge">PHP</span><span class="badge"> Problem Solving</span><span class="badge"> Data Structures and Algorithms</p>
+         <p class="card-text my-2 skill shadow"><b>Skills:</b> <span class="badge">Python</span><span class="badge">PHP</span><span class="badge"> Problem Solving</span><span class="badge"> Data Structures and Algorithms</span></p>
         <p class="card-text my-2 intern"><b>Internships/Projects :</b>none</p>
         <div class="row d-flex justify-content-around">
-        <button class="shadow btn btn-primary col-5 m-1"  onclick="window.location.href = 'https://drive.google.com/file/d/1BmhLPCQGWw8YZ5za-bsHrCpZeriqGfrz/view?usp=sharing';">Resume
+        <button class="shadow btn btn-primary col-5 m-1 px-sm-1"  onclick="window.location.href = 'https://drive.google.com/file/d/1BmhLPCQGWw8YZ5za-bsHrCpZeriqGfrz/view?usp=sharing';">Resume
           </div>
     </div>
     </div>
     </div>
 
-    <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-0 d-flex">
-    <div class="card flex-grow mx-auto">
+    <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-2 px-4 p-sm-0">
+    <div class="card p-xs-1 px-sm-2 h-100 ">
     <div class="card-body d-flex flex-column ">
-        <img src="mca/placeholder.jpeg" alt="Team_image" class="card-img-top img-fluid ">
+        <img src="mca/placeholder.jpeg" alt="Team_image" class="card-img-top img-fluid align-self-center img-thumbnail">
       <h4 class="card-caption text-center">Rahul Kumar</h4>
     
-      <p class="card-text my-2 dob mb-0"><b>Date of Birth :</b>25/071998</p>
+      <p class="card-text my-2 dob mb-0"><b>Date of Birth :</b>25/07/1998</p>
       <p class="card-text my-2 mob mb-0"><b>Mobile :</b>9852478802</p>
       <p class="card-text my-2 email shadow"><b>E-mail</b><br>r4rahul64@gmail.com</p> 
-         <p class="card-text my-2 skill shadow"><b>Skills:</b> <span class="badge">C</span><span class="badge">JAVA</span><span class="badge">html</span><span class="badge">css</span><span class="badge">javascript</span><span class="badge">mysql</span><span class="badge">DSA </span><span class="badge"> DBMS</p>
-         <p class="card-text my-2 intern"><b>Internships/Projects :</b>C</span><span class="badge">C++</span><span class="badge">Java</span><span class="badge">HTML</span><span class="badge">CSS</span><span class="badge">PHP</span><span class="badge">JavaScript</span><span class="badge">Python</p>
+         <p class="card-text my-2 skill shadow"><b>Skills:</b> <span class="badge">C</span><span class="badge">C++</span><span class="badge">JAVA</span><span class="badge">css</span><span class="badge">javascript</span><span class="badge">mysql</span><span class="badge">DSA</span><span class="badge">DBMS</span><span class="badge">HTML</span><span class="badge">CSS</span><span class="badge">PHP</span><span class="badge">JavaScript</span><span class="badge">Python</span></p>
+         <p class="card-text my-2 intern"><b>Internships/Projects :</b></p>
          <div class="row d-flex justify-content-around">
-         <button class="shadow btn btn-primary col-5 m-1"  onclick="window.location.href = 'https://drive.google.com/drive/folders/1YPBxedydzPjQzokSVCjfbKMZ5DtIb4hI?usp=sharing';">Resume
+         <button class="shadow btn btn-primary col-5 m-1 px-sm-1"  onclick="window.location.href = 'https://drive.google.com/drive/folders/1YPBxedydzPjQzokSVCjfbKMZ5DtIb4hI?usp=sharing';">Resume
           </div>
      </div>
      </div>
      </div>
 
-     <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-0 d-flex">
-     <div class="card flex-grow mx-auto">
+     <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-2 px-4 p-sm-0">
+     <div class="card p-xs-1 px-sm-2 h-100 ">
      <div class="card-body d-flex flex-column ">
-        <img src="mca/Ravi Shankar.jpeg" alt="Team_image" class="card-img-top img-fluid ">
+        <img src="mca/Ravi Shankar.jpeg" alt="Team_image" class="card-img-top img-fluid align-self-center img-thumbnail">
       <h4 class="card-caption text-center">Ravi Shankar Pal</h4>
     
       <p class="card-text my-2 dob mb-0"><b>Date of Birth :</b>26/02/1996</p>
       <p class="card-text my-2 mob mb-0"><b>Mobile :</b>   8953275457 </p>
       <p class="card-text my-2 email shadow"><b>E-mail</b><br>ravishankarpl3@gmail.com</p> 
-         <p class="card-text my-2 skill shadow"><b>Skills:</b> <span class="badge">Java</span><span class="badge">Python</span><span class="badge">Data Structure and Algorithm</span><span class="badge">javascript</span><span class="badge">php</p>
+         <p class="card-text my-2 skill shadow"><b>Skills:</b> <span class="badge">Java</span><span class="badge">Python</span><span class="badge">Data Structure and Algorithm</span><span class="badge">javascript</span><span class="badge">php</span></p>
         <p class="card-text my-2 intern"><b>Internships/Projects :</b>None</p>
         <div class="row d-flex justify-content-around">
-        <button class="shadow btn btn-primary col-5 m-1"  onclick="window.location.href = '';">Resume
+        <button class="shadow btn btn-primary col-5 m-1 px-sm-1"  onclick="window.location.href = '';">Resume
           </div>
     </div>
   </div>
   </div>
 
-  <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-0 d-flex">
-  <div class="card flex-grow mx-auto">
+  <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-2 px-4 p-sm-0">
+  <div class="card p-xs-1 px-sm-2 h-100 ">
     <div class="card-body d-flex flex-column ">
-        <img src="mca/placeholder.jpeg" alt="Team_image" class="card-img-top img-fluid ">
+        <img src="mca/placeholder.jpeg" alt="Team_image" class="card-img-top img-fluid align-self-center img-thumbnail">
       <h4 class="card-caption text-center">Ritika Mishra</h4>
     
       <p class="card-text my-2 dob mb-0"><b>Date of Birth :</b>13/07/1999</p>
       <p class="card-text my-2 mob mb-0"><b>Mobile :</b>     7376136501 </p>
       <p class="card-text my-2 email shadow"><b>E-mail</b><br>ritikamaarula21@gmail.com </p> 
-         <p class="card-text my-2 skill shadow"><b>Skills:</b> <span class="badge">Java</span><span class="badge">Web development</span><span class="badge">Mysql</span><span class="badge">Data structure & algorithm</p>
+         <p class="card-text my-2 skill shadow"><b>Skills:</b> <span class="badge">Java</span><span class="badge">Web development</span><span class="badge">Mysql</span><span class="badge">Data structure & algorithm</span></p>
         <p class="card-text my-2 intern"><b>Internships/Projects :</b>None</p>
         <div class="row d-flex justify-content-around">
-        <button class="shadow btn btn-primary col-5 m-1"  onclick="window.location.href = 'https://drive.google.com/file/d/1uNi6oDtLGzFKl055CSLmZ5sVYRWwkb6k/view?usp=sharing';">Resume
+        <button class="shadow btn btn-primary col-5 m-1 px-sm-1"  onclick="window.location.href = 'https://drive.google.com/file/d/1uNi6oDtLGzFKl055CSLmZ5sVYRWwkb6k/view?usp=sharing';">Resume
           </div>
     </div>
     </div>
     </div>
 
-    <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-0 d-flex">
-    <div class="card flex-grow mx-auto">
+    <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-2 px-4 p-sm-0">
+    <div class="card p-xs-1 px-sm-2 h-100 ">
     <div class="card-body d-flex flex-column ">
-        <img src="mca/saket.jpeg" alt="Team_image" class="card-img-top img-fluid ">
+        <img src="mca/saket.jpeg" alt="Team_image" class="card-img-top img-fluid align-self-center img-thumbnail">
       <h4 class="card-caption text-center">Saket Upadhyay</h4>
     
       <p class="card-text my-2 dob mb-0"><b>Date of Birth :</b>20/04/1997</p>
       <p class="card-text my-2 mob mb-0"><b>Mobile :</b>8303188846</p>
       <p class="card-text my-2 email shadow"><b>E-mail</b><br>20saket1996@gmail.com</p> 
-         <p class="card-text my-2 skill shadow"><b>Skills:</b> <span class="badge">Web Development</span><span class="badge"> Data structures & Algorithm</span><span class="badge">Java</span><span class="badge">Python</p>
+         <p class="card-text my-2 skill shadow"><b>Skills:</b> <span class="badge">Web Development</span><span class="badge"> Data structures & Algorithm</span><span class="badge">Java</span><span class="badge">Python</span></p>
          <p class="card-text my-2 intern"><b>Internships/Projects :</b>None</p>
          <div class="row d-flex justify-content-around">
-         <button class="shadow btn btn-primary col-5 m-1"  onclick="window.location.href = 'https://drive.google.com/file/d/1I3KX6GKikbdNxw1ZGU_zZyNNnidEcaG1/view?usp=sharing';">Resume
+         <button class="shadow btn btn-primary col-5 m-1 px-sm-1"  onclick="window.location.href = 'https://drive.google.com/file/d/1I3KX6GKikbdNxw1ZGU_zZyNNnidEcaG1/view?usp=sharing';">Resume
           </div>
      </div>
      </div>
      </div>
 
-     <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-0 d-flex">
-     <div class="card flex-grow mx-auto">
+     <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-2 px-4 p-sm-0">
+     <div class="card p-xs-1 px-sm-2 h-100 ">
      <div class="card-body d-flex flex-column ">
-        <img src="mca/sandeep.jpeg" alt="Team_image" class="card-img-top img-fluid ">
+        <img src="mca/sandeep.jpeg" alt="Team_image" class="card-img-top img-fluid align-self-center img-thumbnail">
       <h4 class="card-caption text-center">Sandeep Kumar Chaudhary</h4>
     
       <p class="card-text my-2 dob mb-0"><b>Date of Birth :</b>10/05/1997</p>
       <p class="card-text my-2 mob mb-0"><b>Mobile :</b>   7524045240 </p>
       <p class="card-text my-2 email shadow"><b>E-mail</b><br>sandeepkumarchaudhary76@gmail.com</p> 
-         <p class="card-text my-2 skill shadow"><b>Skills:</b> <span class="badge">c</span><span class="badge">c++</span><span class="badge"> corejava</span><span class="badge"> Data structure and Algorithm</span><span class="badge">Html</span><span class="badge">Css</span><span class="badge">JavaScript</p>
+         <p class="card-text my-2 skill shadow"><b>Skills:</b> <span class="badge">c</span><span class="badge">c++</span><span class="badge"> corejava</span><span class="badge"> Data structure and Algorithm</span><span class="badge">Html</span><span class="badge">Css</span><span class="badge">JavaScript</span></p>
         <p class="card-text my-2 intern"><b>Internships/Projects :</b>None</p>
         <div class="row d-flex justify-content-around">
-        <button class="shadow btn btn-primary col-5 m-1"  onclick="window.location.href = 'https://drive.google.com/file/d/1kmlLLo-RiykGYxU0Egxbk6LeG15h3tpo/view?usp=drivesdk';">Resume
+        <button class="shadow btn btn-primary col-5 m-1 px-sm-1"  onclick="window.location.href = 'https://drive.google.com/file/d/1kmlLLo-RiykGYxU0Egxbk6LeG15h3tpo/view?usp=drivesdk';">Resume
           </div>
     </div>
   </div>
   </div>
 
-  <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-0 d-flex">
-  <div class="card flex-grow mx-auto">
+  <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-2 px-4 p-sm-0">
+  <div class="card p-xs-1 px-sm-2 h-100 ">
     <div class="card-body d-flex flex-column ">
-        <img src="mca/sanjay_yadav.jpeg" alt="Team_image" class="card-img-top img-fluid ">
+        <img src="mca/sanjay_yadav.jpeg" alt="Team_image" class="card-img-top img-fluid align-self-center img-thumbnail">
       <h4 class="card-caption text-center">Sanjay Yadav</h4>
     
       <p class="card-text my-2 dob mb-0"><b>Date of Birth :</b>10/01/1995</p>
       <p class="card-text my-2 mob mb-0"><b>Mobile :</b>     9451756105 </p>
       <p class="card-text my-2 email shadow"><b>E-mail</b><br>sanjay9451756105@gmail.com </p> 
-         <p class="card-text my-2 skill shadow"><b>Skills:</b> <span class="badge">c</span><span class="badge">java</span><span class="badge">Python</span><span class="badge">PHP</span><span class="badge"> Data structure and Algorithm</span><span class="badge">Html</span><span class="badge">Css</span><span class="badge">JavaScript</p>
+         <p class="card-text my-2 skill shadow"><b>Skills:</b> <span class="badge">c</span><span class="badge">java</span><span class="badge">Python</span><span class="badge">PHP</span><span class="badge"> Data structure and Algorithm</span><span class="badge">Html</span><span class="badge">Css</span><span class="badge">JavaScript</span></p>
         <p class="card-text my-2 intern"><b>Internships/Projects :</b>None</p>
         <div class="row d-flex justify-content-around">
-        <button class="shadow btn btn-primary col-5 m-1"  onclick="window.location.href = 'https://drive.google.com/file/d/1EXAEMF4cZCBrLQBJiTMou49hT76L66HP/view?usp=sharing';">Resume
+        <button class="shadow btn btn-primary col-5 m-1 px-sm-1"  onclick="window.location.href = 'https://drive.google.com/file/d/1EXAEMF4cZCBrLQBJiTMou49hT76L66HP/view?usp=sharing';">Resume
           </div>
     </div>
     </div>
     </div>
 
-    <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-0 d-flex">
-    <div class="card flex-grow mx-auto">
+    <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-2 px-4 p-sm-0">
+    <div class="card p-xs-1 px-sm-2 h-100 ">
     <div class="card-body d-flex flex-column ">
-        <img src="mca/placeholder.jpeg" alt="Team_image" class="card-img-top img-fluid ">
+        <img src="mca/placeholder.jpeg" alt="Team_image" class="card-img-top img-fluid align-self-center img-thumbnail">
       <h4 class="card-caption text-center">Satyendra Singh Gahlod</h4>
     
       <p class="card-text my-2 dob mb-0"><b>Date of Birth :</b>19/08/1996</p>
       <p class="card-text my-2 mob mb-0"><b>Mobile :</b>9074737504</p>
       <p class="card-text my-2 email shadow"><b>E-mail</b><br>satyam97534@gmail.com</p> 
-         <p class="card-text my-2 skill shadow"><b>Skills:</b> <span class="badge">C++</span><span class="badge">Python</span><span class="badge"> Django</span><span class="badge"> Flask</span><span class="badge">HTML</span><span class="badge">CSS</span><span class="badge"> JS</span><span class="badge">DSA</p>
+         <p class="card-text my-2 skill shadow"><b>Skills:</b> <span class="badge">C++</span><span class="badge">Python</span><span class="badge"> Django</span><span class="badge"> Flask</span><span class="badge">HTML</span><span class="badge">CSS</span><span class="badge"> JS</span><span class="badge">DSA</span></p>
          <p class="card-text my-2 intern"><b>Internships/Projects :</b>None</p>
          <div class="row d-flex justify-content-around">
-         <button class="shadow btn btn-primary col-5 m-1"  onclick="window.location.href = 'https://drive.google.com/file/d/1fQg0uhrYDoZu3kPm7YlNs_XCrdBdsdL0/view?usp=drivesdk';">Resume
+         <button class="shadow btn btn-primary col-5 m-1 px-sm-1"  onclick="window.location.href = 'https://drive.google.com/file/d/1fQg0uhrYDoZu3kPm7YlNs_XCrdBdsdL0/view?usp=drivesdk';">Resume
           </div>
      </div>
      </div>
      </div>
 
-     <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-0 d-flex">
-     <div class="card flex-grow mx-auto">
+     <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-2 px-4 p-sm-0">
+     <div class="card p-xs-1 px-sm-2 h-100 ">
      <div class="card-body d-flex flex-column ">
-        <img src="mca/shashank.jpeg" alt="Team_image" class="card-img-top img-fluid ">
+        <img src="mca/shashank.jpeg" alt="Team_image" class="card-img-top img-fluid align-self-center img-thumbnail">
       <h4 class="card-caption text-center">Shashank Shekhar Upadhyay</h4>
     
       <p class="card-text my-2 dob mb-0"><b>Date of Birth :</b>01/08/1997</p>
       <p class="card-text my-2 mob mb-0"><b>Mobile :</b>   7379483289 </p>
       <p class="card-text my-2 email shadow"><b>E-mail</b><br>ushashank248@gmail.com</p> 
-         <p class="card-text my-2 skill shadow"><b>Skills:</b> <span class="badge">C</span><span class="badge">Java</span><span class="badge">Python</span><span class="badge"> Data structure&algorithm</span><span class="badge"> ML</span><span class="badge"> Problem solving</span><span class="badge">  database </p>
+         <p class="card-text my-2 skill shadow"><b>Skills:</b> <span class="badge">C</span><span class="badge">Java</span><span class="badge">Python</span><span class="badge"> Data structure&algorithm</span><span class="badge"> ML</span><span class="badge"> Problem solving</span><span class="badge">database</span></p>
         <p class="card-text my-2 intern"><b>Internships/Projects :</b>None</p>
         <div class="row d-flex justify-content-around">
-        <button class="shadow btn btn-primary col-5 m-1"  onclick="window.location.href = 'https://drive.google.com/file/d/1xcY7pdq8O4Wcjo3ZmrHJYb911c_PQ8GZ/view?usp=sharing';">Resume
+        <button class="shadow btn btn-primary col-5 m-1 px-sm-1"  onclick="window.location.href = 'https://drive.google.com/file/d/1xcY7pdq8O4Wcjo3ZmrHJYb911c_PQ8GZ/view?usp=sharing';">Resume
           </div>
     </div>
   </div>
   </div>
 
-  <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-0 d-flex">
-  <div class="card flex-grow mx-auto">
+  <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-2 px-4 p-sm-0">
+  <div class="card p-xs-1 px-sm-2 h-100 ">
     <div class="card-body d-flex flex-column ">
-        <img src="mca/Shipra_Tiwari.jpeg" alt="Team_image" class="card-img-top img-fluid ">
+        <img src="mca/Shipra_Tiwari.jpeg" alt="Team_image" class="card-img-top img-fluid align-self-center img-thumbnail">
       <h4 class="card-caption text-center">Shipra Tiwari</h4>
     
       <p class="card-text my-2 dob mb-0"><b>Date of Birth :</b>14/11/1999</p>
       <p class="card-text my-2 mob mb-0"><b>Mobile :</b>     8840445971 </p>
       <p class="card-text my-2 email shadow"><b>E-mail</b><br>itshipra263@gmail.com </p> 
-         <p class="card-text my-2 skill shadow"><b>Skills:</b> <span class="badge">Web Development </span><span class="badge"> Data Structure & Algorithm </span><span class="badge"> DBMS</p>
+         <p class="card-text my-2 skill shadow"><b>Skills:</b> <span class="badge">Web Development </span><span class="badge"> Data Structure & Algorithm </span><span class="badge"> DBMS</span></p>
         <p class="card-text my-2 intern"><b>Internships/Projects :</b>None</p>
         <div class="row d-flex justify-content-around">
-        <button class="shadow btn btn-primary col-5 m-1"  onclick="window.location.href = 'https://drive.google.com/file/d/1Rwg1ZYzE9JgpUIikRzEWDwtTgUj_SqK1/view?usp=sharing';">Resume
+        <button class="shadow btn btn-primary col-5 m-1 px-sm-1"  onclick="window.location.href = 'https://drive.google.com/file/d/1Rwg1ZYzE9JgpUIikRzEWDwtTgUj_SqK1/view?usp=sharing';">Resume
           </div>
     </div>
     </div>
     </div>
 
-    <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-0 d-flex">
-    <div class="card flex-grow mx-auto">
+    <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-2 px-4 p-sm-0">
+    <div class="card p-xs-1 px-sm-2 h-100 ">
     <div class="card-body d-flex flex-column ">
-        <img src="mca/shitish.jpeg" alt="Team_image" class="card-img-top img-fluid ">
+        <img src="mca/shitish.jpeg" alt="Team_image" class="card-img-top img-fluid align-self-center img-thumbnail">
       <h4 class="card-caption text-center">Shitish Patel</h4>
     
       <p class="card-text my-2 dob mb-0"><b>Date of Birth :</b>10/01/1999</p>
       <p class="card-text my-2 mob mb-0"><b>Mobile :</b>7453079812</p>
       <p class="card-text my-2 email shadow"><b>E-mail</b><br>shitishpatel1999@gmail.com</p> 
-         <p class="card-text my-2 skill shadow"><b>Skills:</b> <span class="badge">C</span><span class="badge">C++</span><span class="badge">Data Structue & Algorithm</span><span class="badge">java</span><span class="badge">javascript</span><span class="badge">Bootstrap</span><span class="badge">Wordpress</p>
+         <p class="card-text my-2 skill shadow"><b>Skills:</b> <span class="badge">C</span><span class="badge">C++</span><span class="badge">Data Structue & Algorithm</span><span class="badge">java</span><span class="badge">javascript</span><span class="badge">Bootstrap</span><span class="badge">Wordpress</span></p>
          <p class="card-text my-2 intern"><b>Internships/Projects :</b>None</p>
          <div class="row d-flex justify-content-around">
-         <button class="shadow btn btn-primary col-5 m-1"  onclick="window.location.href = 'https://drive.google.com/file/d/1HTHGWCxvgC7MJC6ZkUOleBy_RQusMvuV/view?usp=drivesdk';">Resume
+         <button class="shadow btn btn-primary col-5 m-1 px-sm-1"  onclick="window.location.href = 'https://drive.google.com/file/d/1HTHGWCxvgC7MJC6ZkUOleBy_RQusMvuV/view?usp=drivesdk';">Resume
           </div>
      </div>
      </div>
      </div>
 
-     <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-0 d-flex">
-     <div class="card flex-grow mx-auto">
+     <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-2 px-4 p-sm-0">
+     <div class="card p-xs-1 px-sm-2 h-100 ">
      <div class="card-body d-flex flex-column ">
-        <img src="mca/Shivani katiyar.jpeg" alt="Team_image" class="card-img-top img-fluid ">
+        <img src="mca/Shivani katiyar.jpeg" alt="Team_image" class="card-img-top img-fluid align-self-center img-thumbnail">
       <h4 class="card-caption text-center">Shivani Katiyar</h4>
     
       <p class="card-text my-2 dob mb-0"><b>Date of Birth :</b>05/08/1998</p>
       <p class="card-text my-2 mob mb-0"><b>Mobile :</b>   9519202226 </p>
       <p class="card-text my-2 email shadow"><b>E-mail</b><br>shivani.katiyar581998@gmail.com</p> 
          <p class="card-text my-2 skill shadow"><b>Skills:</b> <span class="badge">C</span><span class="badge">CoreJava</span><span class="badge">Data Structue & Algorithm</span><span class="badge">JDBC</span><span class="badge">Html</span><span class="badge">Css</span><span class="badge">MySql</span><span class="badge">Git</span><span class="badge">Github</span><span class="badge">
-         Eclipse</span><span class="badge">Netbeans</p>
+         Eclipse</span><span class="badge">Netbeans</span></p>
         <p class="card-text my-2 intern"><b>Internships/Projects :</b>None</p>
         <div class="row d-flex justify-content-around">
-        <button class="shadow btn btn-primary col-5 m-1"  onclick="window.location.href = 'https://drive.google.com/file/d/1EXHKyqHS7MiD8P22PEPXqV5313JhXmwH/view?usp=sharing';">Resume
+        <button class="shadow btn btn-primary col-5 m-1 px-sm-1"  onclick="window.location.href = 'https://drive.google.com/file/d/1EXHKyqHS7MiD8P22PEPXqV5313JhXmwH/view?usp=sharing';">Resume
           </div>
       </div>
   </div>
   </div>
 
-  <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-0 d-flex">
-  <div class="card flex-grow mx-auto">
+  <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-2 px-4 p-sm-0">
+  <div class="card p-xs-1 px-sm-2 h-100 ">
     <div class="card-body d-flex flex-column ">
-        <img src="mca/surendra.jpeg" alt="Team_image" class="card-img-top img-fluid ">
+        <img src="mca/surendra.jpeg" alt="Team_image" class="card-img-top img-fluid align-self-center img-thumbnail">
       <h4 class="card-caption text-center">Surendra Kumar </h4>
     
       <p class="card-text my-2 dob mb-0"><b>Date of Birth :</b>13/12/1997</p>
       <p class="card-text my-2 mob mb-0"><b>Mobile :</b>     7007496181 </p>
       <p class="card-text my-2 email shadow"><b>E-mail</b><br>Thesurendra2.0@gmail.com  </p> 
-         <p class="card-text my-2 skill shadow"><b>Skills:</b> <span class="badge">C</span><span class="badge">Java</span><span class="badge">Python</span><span class="badge"> Data structure&algorithm</span><span class="badge"> Android Studio</span><span class="badge">HTML</span><span class="badge">CSS</span><span class="badge"> Problem solving</span><span class="badge">  database </p>
+         <p class="card-text my-2 skill shadow"><b>Skills:</b> <span class="badge">C</span><span class="badge">Java</span><span class="badge">Python</span><span class="badge"> Data structure&algorithm</span><span class="badge"> Android Studio</span><span class="badge">HTML</span><span class="badge">CSS</span><span class="badge"> Problem solving</span><span class="badge">database</span></p>
         <p class="card-text my-2 intern"><b>Internships/Projects :</b>None</p>
         <div class="row d-flex justify-content-around">
-        <button class="shadow btn btn-primary col-5 m-1"  onclick="window.location.href = 'https://drive.google.com/file/d/1-22_5h04zgYS3SqgE7yz4SdBuvgMjHE3/view?usp=sharing';">Resume
+        <button class="shadow btn btn-primary col-5 m-1 px-sm-1"  onclick="window.location.href = 'https://drive.google.com/file/d/1-22_5h04zgYS3SqgE7yz4SdBuvgMjHE3/view?usp=sharing';">Resume
           </div>
     </div>
     </div>
     </div>
 
-    <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-0 d-flex">
-    <div class="card flex-grow mx-auto">
+    <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-2 px-4 p-sm-0">
+    <div class="card p-xs-1 px-sm-2 h-100 ">
     <div class="card-body d-flex flex-column ">
-        <img src="mca/sonam_verma.jpeg" alt="Team_image" class="card-img-top img-fluid ">
+        <img src="mca/sonam_verma.jpeg" alt="Team_image" class="card-img-top img-fluid align-self-center img-thumbnail">
       <h4 class="card-caption text-center">Sonam Verma</h4>
     
       <p class="card-text my-2 dob mb-0"><b>Date of Birth :</b>23/03/1998</p>
       <p class="card-text my-2 mob mb-0"><b>Mobile :</b>8953277230</p>
       <p class="card-text my-2 email shadow"><b>E-mail</b><br>vermasonam945@gmail.com</p> 
-         <p class="card-text my-2 skill shadow"><b>Skills:</b> <span class="badge">C</span><span class="badge"> CoreJava</span><span class="badge">Data structure& Alogrithm </span><span class="badge">HTML</span><span class="badge">CSS</span><span class="badge">Javascript </span><span class="badge">git/Github</p>
+         <p class="card-text my-2 skill shadow"><b>Skills:</b> <span class="badge">C</span><span class="badge"> CoreJava</span><span class="badge">Data structure& Alogrithm </span><span class="badge">HTML</span><span class="badge">CSS</span><span class="badge">Javascript </span><span class="badge">git/Github</span></p>
          <p class="card-text my-2 intern"><b>Internships/Projects :</b>None</p>
         
          <div class="row d-flex justify-content-around">
-         <button class="shadow btn btn-primary col-5 m-1"  onclick="window.location.href = 'https://docs.google.com/document/d/1GPeq1vLDaw6tY3ezjDAnm7WNyDjUlI8N/edit?usp=sharing&ouid=108978030877538536144&rtpof=true&sd=true';">Resume
+         <button class="shadow btn btn-primary col-5 m-1 px-sm-1"  onclick="window.location.href = 'https://docs.google.com/document/d/1GPeq1vLDaw6tY3ezjDAnm7WNyDjUlI8N/edit?usp=sharing&ouid=108978030877538536144&rtpof=true&sd=true';">Resume
           </div>
      </div>
      </div>
      </div>
 
-     <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-0 d-flex">
-     <div class="card flex-grow mx-auto">
+     <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-2 px-4 p-sm-0">
+     <div class="card p-xs-1 px-sm-2 h-100 ">
      <div class="card-body d-flex flex-column ">
-        <img src="mca/sushant.jpeg" alt="Team_image" class="card-img-top img-fluid ">
+        <img src="mca/sushant.jpeg" alt="Team_image" class="card-img-top img-fluid align-self-center img-thumbnail">
       <h4 class="card-caption text-center">Sushant Tiwari</h4>
     
       <p class="card-text my-2 dob mb-0"><b>Date of Birth :</b>20/04/1998</p>
       <p class="card-text my-2 mob mb-0"><b>Mobile :</b>   9170769133 </p>
       <p class="card-text my-2 email shadow"><b>E-mail</b><br>sushantktiwari98@gmail.com</p> 
-         <p class="card-text my-2 skill shadow"><b>Skills:</b> <span class="badge">C</span><span class="badge">Python</span><span class="badge">Java</span><span class="badge">HTML</span><span class="badge">CSS</span><span class="badge"> Bootstrap</span><span class="badge"> MySQL</span><span class="badge"> Data Structure & Algorithm</span><span class="badge"> Problem Solving</span><span class="badge"> Github </p>
+         <p class="card-text my-2 skill shadow"><b>Skills:</b> <span class="badge">C</span><span class="badge">Python</span><span class="badge">Java</span><span class="badge">HTML</span><span class="badge">CSS</span><span class="badge"> Bootstrap</span><span class="badge"> MySQL</span><span class="badge"> Data Structure & Algorithm</span><span class="badge"> Problem Solving</span><span class="badge"> Github</span> </p>
         <p class="card-text my-2 intern"><b>Internships/Projects :</b>None</p>
         <div class="row d-flex justify-content-around">
-        <button class="shadow btn btn-primary col-5 m-1"  onclick="window.location.href = 'https://drive.google.com/file/d/1i_LYo1hew7eg2l3PZjO2OQ_mKGsQvnlZ/view?usp=sharing';">Resume
+        <button class="shadow btn btn-primary col-5 m-1 px-sm-1"  onclick="window.location.href = 'https://drive.google.com/file/d/1i_LYo1hew7eg2l3PZjO2OQ_mKGsQvnlZ/view?usp=sharing';">Resume
           </div>
   </div>
   </div>
   </div>
 
-  <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-0 d-flex">
-  <div class="card flex-grow mx-auto">
+  <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-2 px-4 p-sm-0">
+  <div class="card p-xs-1 px-sm-2 h-100 ">
     <div class="card-body d-flex flex-column ">
-        <img src="mca/placeholder.jpeg" alt="Team_image" class="card-img-top img-fluid ">
+        <img src="mca/placeholder.jpeg" alt="Team_image" class="card-img-top img-fluid align-self-center img-thumbnail">
       <h4 class="card-caption text-center">Saminullah Ahmadzai</h4>
     
       <p class="card-text my-2 dob mb-0"><b>Date of Birth :</b>21/03/1987</p>
       <p class="card-text my-2 mob mb-0"><b>Mobile :</b>     9120126960 </p>
       <p class="card-text my-2 email shadow"><b>E-mail</b><br>samin.ullah1987@gmail.com </p> 
-         <p class="card-text my-2 skill shadow"><b>Skills:</b> <span class="badge">Networking</span><span class="badge">DBMS</span><span class="badge">Android</span><span class="badge">C</span><span class="badge">Java</p>
+         <p class="card-text my-2 skill shadow"><b>Skills:</b> <span class="badge">Networking</span><span class="badge">DBMS</span><span class="badge">Android</span><span class="badge">C</span><span class="badge">Java</span></p>
         <p class="card-text my-2 intern"><b>Internships/Projects :</b>None</p>
         <div class="row d-flex justify-content-around">
-        <button class="shadow btn btn-primary col-5 m-1"  onclick="window.location.href = 'https://docs.google.com/document/d/1zNHlewbnnJ6BZMjxnnK7yU8O2lbknQn5/edit?usp=drive_web&ouid=108589470900528214854&rtpof=true';">Resume
+        <button class="shadow btn btn-primary col-5 m-1 px-sm-1"  onclick="window.location.href = 'https://docs.google.com/document/d/1zNHlewbnnJ6BZMjxnnK7yU8O2lbknQn5/edit?usp=drive_web&ouid=108589470900528214854&rtpof=true';">Resume
           </div>
     </div>
   </div>
@@ -926,7 +925,7 @@
 </div>
 </section>
 
-<section class="main-heading my-5">
+<section class="main-heading my-4">
   <div class="text-center">
     <h2 class="text-secondary my-5">MCA-2019 (RGSC)</h2>
     <hr class="w-50 mx-auto"  />
@@ -935,13 +934,13 @@
 
 <section class="section-cards">
   <div class="container">
-    <div class="row d-flex justify-content-center justify-content-lg-around">
+    <div class="row d-flex  justify-content-center justify-content-sm-around">
 
 
-  <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-0 d-flex">
-  <div class="card flex-grow mx-auto">
+  <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-2 px-4 p-sm-0">
+  <div class="card p-xs-1 px-sm-2 h-100 ">
     <div class="card-body d-flex flex-column ">
-        <img src="mca/Abhash_Kumar.jpeg" alt="Team_image" class="card-img-top img-fluid ">
+        <img src="mca/Abhash_Kumar.jpeg" alt="Team_image" class="card-img-top img-fluid align-self-center img-thumbnail">
       <h4 class="card-caption text-center">Abhash Kumar</h4>
     
       <p class="card-text my-2 dob mb-0"><b>Date of Birth :</b>21/03/1998 </p>
@@ -950,18 +949,18 @@
          <p class="card-text my-2 interest shadow"><b>Area of Interest :</b><span class="badge">Web Development(MERN)</span><span class="badge">Javaand Android Development</span></p>
          <p class="card-text my-2 intern"><b>Internships/Projects :</b> None</p>
          <div class="row d-flex justify-content-around">
-         <button class="shadow btn btn-primary col-5 m-1"  onclick="window.location.href = '';">LinkedIn
-          <button class="shadow btn btn-primary col-5 m-1"  onclick="window.location.href = 'https://drive.google.com/file/d/1uilWMVbw7K-CCHC2uEMecVIndmn3SaPF/view?usp=sharing';">Resume
+         <button class="shadow btn btn-primary col-5 m-1 px-sm-1"  onclick="window.location.href = '';">LinkedIn
+          <button class="shadow btn btn-primary col-5 m-1 px-sm-1"  onclick="window.location.href = 'https://drive.google.com/file/d/1uilWMVbw7K-CCHC2uEMecVIndmn3SaPF/view?usp=sharing';">Resume
      </div>
     </div>
 
      </div>
      </div>
 
-     <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-0 d-flex">
-     <div class="card flex-grow mx-auto">
+     <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-2 px-4 p-sm-0">
+     <div class="card p-xs-1 px-sm-2 h-100 ">
     <div class="card-body d-flex flex-column ">
-        <img src="mca/Anurag_Rawat.jpeg" alt="Team_image" class="card-img-top img-fluid ">
+        <img src="mca/Anurag_Rawat.jpeg" alt="Team_image" class="card-img-top img-fluid align-self-center img-thumbnail">
       <h4 class="card-caption text-center">Anurag Rawat</h4>
     
       <p class="card-text my-2 dob mb-0"><b>Date of Birth :</b>26/09/1999 </p>
@@ -970,17 +969,17 @@
          <p class="card-text my-2 interest shadow"><b>Area of Interest :</b><span class="badge">Web Development(MERN)</span><span class="badge">JAVA</span><span class="badge">Cloud Computing</span></p>
          <p class="card-text my-2 intern"><b>Internships/Projects :</b> None</p>
          <div class="row d-flex justify-content-around">
-         <button class="shadow btn btn-primary col-5 m-1"  onclick="window.location.href = '';">LinkedIn
-          <button class="shadow btn btn-primary col-5 m-1"  onclick="window.location.href = 'https://drive.google.com/file/d/1kT7FeRKuTYI00Ykvd3N88EjQlU7MuUjl/view?usp=sharing';">Resume
+         <button class="shadow btn btn-primary col-5 m-1 px-sm-1"  onclick="window.location.href = '';">LinkedIn
+          <button class="shadow btn btn-primary col-5 m-1 px-sm-1"  onclick="window.location.href = 'https://drive.google.com/file/d/1kT7FeRKuTYI00Ykvd3N88EjQlU7MuUjl/view?usp=sharing';">Resume
      </div>
      </div>
      </div>
      </div>
 
-     <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-0 d-flex">
-     <div class="card flex-grow mx-auto">
+     <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-2 px-4 p-sm-0">
+     <div class="card p-xs-1 px-sm-2 h-100 ">
     <div class="card-body d-flex flex-column ">
-        <img src="mca/Abhilash_Tyagi.jpeg" alt="Team_image" class="card-img-top img-fluid ">
+        <img src="mca/Abhilash_Tyagi.jpeg" alt="Team_image" class="card-img-top img-fluid align-self-center img-thumbnail">
       <h4 class="card-caption text-center">Abhilash Tyagi</h4>
     
       <p class="card-text my-2 dob mb-0"><b>Date of Birth :</b> 21/07/1996 </p>
@@ -989,17 +988,17 @@
          <p class="card-text my-2 interest shadow"><b>Area of Interest : </b><span class="badge">Android Development</span><span class="badge">Java</span><span class="badge">Web Development</span></p>
          <p class="card-text my-2 intern"><B>Internships/Projects : </b>None</p>
           <div class="row d-flex justify-content-around">
-         <button class="shadow btn btn-primary col-5 m-1"  onclick="window.location.href = '';">LinkedIn
-          <button class="shadow btn btn-primary col-5 m-1"  onclick="window.location.href = 'https://drive.google.com/file/d/13QJ7zICdlz0FFmM57e1PpArXMyQl0P4r/view?usp=sharing';">Resume
+         <button class="shadow btn btn-primary col-5 m-1 px-sm-1"  onclick="window.location.href = '';">LinkedIn
+          <button class="shadow btn btn-primary col-5 m-1 px-sm-1"  onclick="window.location.href = 'https://drive.google.com/file/d/13QJ7zICdlz0FFmM57e1PpArXMyQl0P4r/view?usp=sharing';">Resume
           </div>
     </div>
   </div>
   </div>
 
-  <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-0 d-flex">
-  <div class="card flex-grow mx-auto">
+  <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-2 px-4 p-sm-0">
+  <div class="card p-xs-1 px-sm-2 h-100 ">
     <div class="card-body d-flex flex-column ">
-        <img src="mca/Aganivesh_Singh.jpeg" alt="Team_image" class="card-img-top img-fluid ">
+        <img src="mca/Aganivesh_Singh.jpeg" alt="Team_image" class="card-img-top img-fluid align-self-center img-thumbnail">
       <h4 class="card-caption text-center">Aganivesh Singh</h4>
     
       <p class="card-text my-2 dob mb-0"><b>Date of Birth :</b>21/03/1997 </p>
@@ -1007,17 +1006,18 @@
       <p class="card-text my-2 email shadow"><b>E-mail</b><br>aganivesh.bhumca19@gmail.com </p> 
          <p class="card-text my-2 interest shadow"><b>Area of Interest :</b><span class="badge">C</span><span class="badge">Web Development</span><span class="badge"> & Cloud Computing</span></p>
          <p class="card-text my-2 intern"><b>Internships/Projects :</b> None</p>
-         <button class="shadow btn btn-primary col-5 m-1"  onclick="window.location.href = '';">LinkedIn
-          <button class="shadow btn btn-primary col-5 m-1"  onclick="window.location.href = '';">Resume
+         <div class="row d-flex justify-content-around">
+         <button class="shadow btn btn-primary col-5 m-1 px-sm-1"  onclick="window.location.href = '';">LinkedIn
+          <button class="shadow btn btn-primary col-5 m-1 px-sm-1"  onclick="window.location.href = '';">Resume
+      </div>
+    </div>
+    </div>
     </div>
 
-    </div>
-    </div>
-
-    <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-0 d-flex">
-    <div class="card flex-grow mx-auto">
+    <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-2 px-4 p-sm-0">
+    <div class="card p-xs-1 px-sm-2 h-100 ">
     <div class="card-body d-flex flex-column ">
-        <img src="mca/Megha_Kumari.jpeg" alt="Team_image" class="card-img-top img-fluid ">
+        <img src="mca/Megha_Kumari.jpeg" alt="Team_image" class="card-img-top img-fluid align-self-center img-thumbnail">
       <h4 class="card-caption text-center">Megha Kumari</h4>
       <p class="card-text my-2 dob mb-0"><b>Date of Birth :</b>09/03/1997</p>
       <p class="card-text my-2 mob mb-0"><b>Mobile :</b>7091577918</p>
@@ -1025,18 +1025,18 @@
          <p class="card-text my-2 interest shadow"><b>Area of Interest :</b></p>
          <p class="card-text my-2 intern"><b>Internships/Projects :</b> None</p>
          <div class="row d-flex justify-content-around">
-         <button class="shadow btn btn-primary col-5 m-1"  onclick="window.location.href = '';">LinkedIn
-          <button class="shadow btn btn-primary col-5 m-1"  onclick="window.location.href = '';">Resume
+         <button class="shadow btn btn-primary col-5 m-1 px-sm-1"  onclick="window.location.href = '';">LinkedIn
+          <button class="shadow btn btn-primary col-5 m-1 px-sm-1"  onclick="window.location.href = '';">Resume
           </div>
      </div>
 
      </div>
      </div>
 
-     <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-0 d-flex">
-     <div class="card flex-grow mx-auto">
+     <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-2 px-4 p-sm-0">
+     <div class="card p-xs-1 px-sm-2 h-100 ">
     <div class="card-body d-flex flex-column ">
-        <img src="mca/Vishok_Shukla.jpeg" alt="Team_image" class="card-img-top img-fluid ">
+        <img src="mca/Vishok_Shukla.jpeg" alt="Team_image" class="card-img-top img-fluid align-self-center img-thumbnail">
       <h4 class="card-caption text-center">Vishok Shukla</h4>
       <p class="card-text my-2 dob mb-0"><b>Date of Birth :</b> 12/10/1997 </p>
       <p class="card-text my-2 mob mb-0"><b>Mobile : </b>9315814170</p>
@@ -1044,8 +1044,8 @@
          <p class="card-text my-2 interest shadow"><b>Area of Interest : </b><span class="badge">Data Science</span><span class="badge">JavaDevelopment</span><span class="badge"> Android Development</span></p>
          <p class="card-text my-2 intern"><B>Internships/Projects : </b>None</p>
           <div class="row d-flex justify-content-around" >
-         <button class="shadow btn btn-primary col-5 m-1"  onclick="window.location.href = '';">LinkedIn
-          <button class="shadow btn btn-primary col-5 m-1"  onclick="window.location.href = 'https://drive.google.com/file/d/1OWXK3f1UehmRo04wzdE4Wuda9jAbGlGC/view?usp=sharing';">Resume
+         <button class="shadow btn btn-primary col-5 m-1 px-sm-1"  onclick="window.location.href = '';">LinkedIn
+          <button class="shadow btn btn-primary col-5 m-1 px-sm-1"  onclick="window.location.href = 'https://drive.google.com/file/d/1OWXK3f1UehmRo04wzdE4Wuda9jAbGlGC/view?usp=sharing';">Resume
           </div>
     </div>
   </div>
@@ -1055,7 +1055,7 @@
 </div>
 </section>
 
-<section class="main-heading my-5">
+<section class="main-heading my-3">
   <div class="text-center">
     <h2 class="text-secondary my-5">MCA-2020 (MAIN CAMPUS)</h2>
     <hr class="w-50 mx-auto"  />
@@ -1064,150 +1064,150 @@
 
 <section class="section-cards">
   <div class="container">
-    <div class="row d-flex justify-content-center justify-content-lg-around">
+    <div class="row d-flex  justify-content-center justify-content-sm-around">
 
 
-  <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-0 d-flex">
-  <div class="card flex-grow mx-auto">
+  <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-2 px-4 p-sm-0">
+  <div class="card p-xs-1 px-sm-2 h-100 ">
     <div class="card-body d-flex flex-column ">
-        <img src="mca/Akash_Mishra.jpeg" alt="Team_image" class="card-img-top img-fluid ">
+        <img src="mca/Akash_Mishra.jpeg" alt="Team_image" class="card-img-top img-fluid align-self-center img-thumbnail">
       <h4 class="card-caption text-center">Akash Mishra</h4>
       <p class="card-text my-2 dob mb-0"><b>Date of Birth :</b>10/07/2000 </p>
       <p class="card-text my-2 mob mb-0"><b>Mobile :</b>   8960064824 </p>
       <p class="card-text my-2 email shadow"><b>E-mail</b><br>akashmisra13@gmail.com </p> 
-         <p class="card-text my-2 skill shadow"><b>Skills:</b> <span class="badge">DSA</span><span class="badge"> SQL</span><span class="badge">Java</span><span class="badge">HTML</span><span class="badge">CSS</span><span class="badge">JavaScript</p>
+         <p class="card-text my-2 skill shadow"><b>Skills:</b> <span class="badge">DSA</span><span class="badge"> SQL</span><span class="badge">Java</span><span class="badge">HTML</span><span class="badge">CSS</span><span class="badge">JavaScript</span></p>
          <div class="row d-flex justify-content-around" >
-          <button class="shadow btn btn-primary col-5 m-1"  onclick="window.location.href = 'https://www.linkedin.com/in/akash-mishra-5286111b0';">LinkedIn
-          <button class="shadow btn btn-primary col-5 m-1"  onclick="window.location.href = 'https://drive.google.com/file/d/1uZhrGNydbHon7bxubPzXP8qYiXgi71ZK/view?usp=sharing';">Resume
+          <button class="shadow btn btn-primary col-5 m-1 px-sm-1"  onclick="window.location.href = 'https://www.linkedin.com/in/akash-mishra-5286111b0';">LinkedIn
+          <button class="shadow btn btn-primary col-5 m-1 px-sm-1"  onclick="window.location.href = 'https://drive.google.com/file/d/1uZhrGNydbHon7bxubPzXP8qYiXgi71ZK/view?usp=sharing';">Resume
           </div>
     </div>
 
     </div>
     </div>
 
-    <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-0 d-flex">
-    <div class="card flex-grow mx-auto">
+    <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-2 px-4 p-sm-0">
+    <div class="card p-xs-1 px-sm-2 h-100 ">
     <div class="card-body d-flex flex-column ">
-        <img src="mca/ANKUSH_KUMAR.jpeg" alt="Team_image" class="card-img-top img-fluid ">
+        <img src="mca/ANKUSH_KUMAR.jpeg" alt="Team_image" class="card-img-top img-fluid align-self-center img-thumbnail">
       <h4 class="card-caption text-center">Ankush Kumar</h4>
       <p class="card-text my-2 dob mb-0"><b>Date of Birth :</b>07/07/1999 </p>
       <p class="card-text my-2 mob mb-0"><b>Mobile :</b>9044192560</p>
       <p class="card-text my-2 email shadow"><b>E-mail</b><br>ankushkumar01236@gmail.com</p> 
-         <p class="card-text my-2 skill shadow"><b>Skills:</b> <span class="badge">C</span><span class="badge">C++</span><span class="badge">Python</span><span class="badge">HTML</span><span class="badge">CSS</span><span class="badge">Flask</span><span class="badge">Django</span><span class="badge">SQL</p>  
+         <p class="card-text my-2 skill shadow"><b>Skills:</b> <span class="badge">C</span><span class="badge">C++</span><span class="badge">Python</span><span class="badge">HTML</span><span class="badge">CSS</span><span class="badge">Flask</span><span class="badge">Django</span><span class="badge">SQL</span></p>  
          <div class="row d-flex justify-content-around" >
-         <button class="shadow btn btn-primary col-5 m-1"  onclick="window.location.href = 'https://www.linkedin.com/in/ankush-kumar-947872205';">LinkedIn
-          <button class="shadow btn btn-primary col-5 m-1"  onclick="window.location.href = 'https://drive.google.com/file/d/1g9dl2SSKidpRc02Yulyck3SMAz_SnK6X/view?usp=sharing';">Resume
+         <button class="shadow btn btn-primary col-5 m-1 px-sm-1"  onclick="window.location.href = 'https://www.linkedin.com/in/ankush-kumar-947872205';">LinkedIn
+          <button class="shadow btn btn-primary col-5 m-1 px-sm-1"  onclick="window.location.href = 'https://drive.google.com/file/d/1g9dl2SSKidpRc02Yulyck3SMAz_SnK6X/view?usp=sharing';">Resume
           </div>
      </div>
 
      </div>
      </div>
 
-     <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-0 d-flex">
-     <div class="card flex-grow mx-auto">
+     <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-2 px-4 p-sm-0">
+     <div class="card p-xs-1 px-sm-2 h-100 ">
     <div class="card-body d-flex flex-column ">
-        <img src="mca/Avinash_Kumar.jpeg" alt="Team_image" class="card-img-top img-fluid ">
+        <img src="mca/Avinash_Kumar.jpeg" alt="Team_image" class="card-img-top img-fluid align-self-center img-thumbnail">
       <h4 class="card-caption text-center">Avinash Kumar</h4>
     
       <p class="card-text my-2 dob mb-0"><b>Date of Birth :</b> 05/08/1999</p>
       <p class="card-text my-2 mob mb-0"><b>Mobile : </b>9973424814</p>
       <p class="card-text my-2 email shadow"><b>E-mail</b><br>avinashkumar521999@gmail.com</p> 
-         <p class="card-text my-2 skill shadow"><b>Skills: </b>Java</span><span class="badge"> Paython</span><span class="badge"> MySQL</span><span class="badge"> Solidity Android Studio</p>
+         <p class="card-text my-2 skill shadow"><b>Skills: </b> <span class="badge">Java</span><span class="badge"> Paython</span><span class="badge"> MySQL</span><span class="badge"> Solidity Android Studio</span></p>
          <div class="row d-flex justify-content-around" >
-        <button class="shadow btn btn-primary col-5 m-1"  onclick="window.location.href = 'https://www.linkedin.com/in/avinash-kumar-14b9b6211';">LinkedIn
-          <button class="shadow btn btn-primary col-5 m-1"  onclick="window.location.href = 'https://drive.google.com/file/d/1i-AmG12pYqWhz0AoQCM1hT3TaRjy05OM/view?usp=drivesdk';">Resume
+        <button class="shadow btn btn-primary col-5 m-1 px-sm-1"  onclick="window.location.href = 'https://www.linkedin.com/in/avinash-kumar-14b9b6211';">LinkedIn
+          <button class="shadow btn btn-primary col-5 m-1 px-sm-1"  onclick="window.location.href = 'https://drive.google.com/file/d/1i-AmG12pYqWhz0AoQCM1hT3TaRjy05OM/view?usp=drivesdk';">Resume
           </div>
     </div>
   </div>
   </div>
 
-  <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-0 d-flex">
-  <div class="card flex-grow mx-auto">
+  <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-2 px-4 p-sm-0">
+  <div class="card p-xs-1 px-sm-2 h-100 ">
     <div class="card-body d-flex flex-column ">
-        <img src="mca/chandra_kumar_pal.jpeg" alt="Team_image" class="card-img-top img-fluid ">
+        <img src="mca/chandra_kumar_pal.jpeg" alt="Team_image" class="card-img-top img-fluid align-self-center img-thumbnail">
       <h4 class="card-caption text-center">Chandra Kumar Pal</h4>
     
       <p class="card-text my-2 dob mb-0"><b>Date of Birth :</b>02/12/1998 </p>
       <p class="card-text my-2 mob mb-0"><b>Mobile :</b>   7786938385 </p>
       <p class="card-text my-2 email shadow"><b>E-mail</b><br>chandrakumarpalbhu@gmail.com </p> 
-         <p class="card-text my-2 skill shadow"><b>Skills:</b> <span class="badge">C</span><span class="badge">C++</span><span class="badge">Python</span><span class="badge">Html</span><span class="badge">Css</span><span class="badge">Bootstrap</span><span class="badge">Flask Django</span><span class="badge">Sql</p>
+         <p class="card-text my-2 skill shadow"><b>Skills:</b> <span class="badge">C</span><span class="badge">C++</span><span class="badge">Python</span><span class="badge">Html</span><span class="badge">Css</span><span class="badge">Bootstrap</span><span class="badge">Flask Django</span><span class="badge">Sql</span></p>
          <div class="row d-flex justify-content-around" >
-          <button class="shadow btn btn-primary col-5 m-1"  onclick="window.location.href = 'https://www.linkedin.com/in/chandra-kumar-pal-11994b221';">LinkedIn
-          <button class="shadow btn btn-primary col-5 m-1"  onclick="window.location.href = 'https://drive.google.com/file/d/1mq2fS9qpcWu-mgdRalr8AP34-NcEsuEx/view?usp=sharing';">Resume
+          <button class="shadow btn btn-primary col-5 m-1 px-sm-1"  onclick="window.location.href = 'https://www.linkedin.com/in/chandra-kumar-pal-11994b221';">LinkedIn
+          <button class="shadow btn btn-primary col-5 m-1 px-sm-1"  onclick="window.location.href = 'https://drive.google.com/file/d/1mq2fS9qpcWu-mgdRalr8AP34-NcEsuEx/view?usp=sharing';">Resume
           </div>
     </div>
 
     </div>
     </div>
 
-    <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-0 d-flex">
-    <div class="card flex-grow mx-auto">
+    <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-2 px-4 p-sm-0">
+    <div class="card p-xs-1 px-sm-2 h-100 ">
     <div class="card-body d-flex flex-column ">
-        <img src="mca/Chandrakala.jpeg" alt="Team_image" class="card-img-top img-fluid ">
+        <img src="mca/Chandrakala.jpeg" alt="Team_image" class="card-img-top img-fluid align-self-center img-thumbnail">
       <h4 class="card-caption text-center">Chandrakala</h4>
     
       <p class="card-text my-2 dob mb-0"><b>Date of Birth :</b>07/07/1999 </p>
       <p class="card-text my-2 mob mb-0"><b>Mobile :</b>8429408056</p>
       <p class="card-text my-2 email shadow"><b>E-mail</b><br>kalachandra092@gmail.com</p> 
-         <p class="card-text my-2 skill shadow"><b>Skills:</b> <span class="badge">Mysql</span><span class="badge"> c</span><span class="badge">java</span><span class="badge">python</span><span class="badge">Html </span><span class="badge">c++ Solidity</p>
+         <p class="card-text my-2 skill shadow"><b>Skills:</b> <span class="badge">Mysql</span><span class="badge">C</span><span class="badge">java</span><span class="badge">python</span><span class="badge">Html</span><span class="badge">c++</span><span class="badge">Solidity</span></p>
          <div class="row d-flex justify-content-around" >
-         <button class="shadow btn btn-primary col-5 m-1"  onclick="window.location.href = 'https://www.linkedin.com/in/ck-singh-0a803b215';">LinkedIn
-          <button class="shadow btn btn-primary col-5 m-1"  onclick="window.location.href = 'https://drive.google.com/file/d/1UTt1R5BH8gUcYyTnhCOEiHLg6oZnaROy/view?usp=drivesdk';">Resume
+         <button class="shadow btn btn-primary col-5 m-1 px-sm-1"  onclick="window.location.href = 'https://www.linkedin.com/in/ck-singh-0a803b215';">LinkedIn
+          <button class="shadow btn btn-primary col-5 m-1 px-sm-1"  onclick="window.location.href = 'https://drive.google.com/file/d/1xNf3_S0jc0xPtrQLXKx7nhS253tHQQSz/view?usp=drivesdk';">Resume
           </div>
      </div>
 
      </div>
      </div>
 
-     <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-0 d-flex">
-     <div class="card flex-grow mx-auto">
+     <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-2 px-4 p-sm-0">
+     <div class="card p-xs-1 px-sm-2 h-100 ">
     <div class="card-body d-flex flex-column ">
-        <img src="mca/Dheeraj Kukreja.jpeg" alt="Team_image" class="card-img-top img-fluid ">
+        <img src="mca/Dheeraj Kukreja.jpeg" alt="Team_image" class="card-img-top img-fluid align-self-center img-thumbnail">
       <h4 class="card-caption text-center">Dheeraj Kukreja</h4>
       <p class="card-text my-2 dob mb-0"><b>Date of Birth :</b>21/11/1998</p>
       <p class="card-text my-2 mob mb-0"><b>Mobile : </b>9554447775</p>
       <p class="card-text my-2 email shadow"><b>E-mail</b><br>dheeraj.kuk.9554@gmail.com</p> 
-         <p class="card-text my-2 skill shadow"><b>Skills: </b> Solidity</span><span class="badge"> C</span><span class="badge">C++</span><span class="badge"> MySql</span><span class="badge">Java</span><span class="badge">HTML</p>
+         <p class="card-text my-2 skill shadow"><b>Skills: </b> <span class="badge"> Solidity</span><span class="badge"> C</span><span class="badge">C++</span><span class="badge"> MySql</span><span class="badge">Java</span><span class="badge">HTML</span></p>
          <div class="row d-flex justify-content-around" >
-          <button class="shadow btn btn-primary col-5 m-1"  onclick="window.location.href = 'http://www.linkedin.com/in/dheeraj-kukreja-1a5600214';">LinkedIn
-          <button class="shadow btn btn-primary col-5 m-1"  onclick="window.location.href = 'https://drive.google.com/file/d/1sFmgoSVXmGKEq26LfQr9nSGGG-iVXMYE/view?usp=sharing';">Resume
+          <button class="shadow btn btn-primary col-5 m-1 px-sm-1"  onclick="window.location.href = 'http://www.linkedin.com/in/dheeraj-kukreja-1a5600214';">LinkedIn
+          <button class="shadow btn btn-primary col-5 m-1 px-sm-1"  onclick="window.location.href = 'https://drive.google.com/file/d/1sFmgoSVXmGKEq26LfQr9nSGGG-iVXMYE/view?usp=sharing';">Resume
           </div>
     </div>
   </div>
   </div>
 
-  <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-0 d-flex">
-  <div class="card flex-grow mx-auto">
+  <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-2 px-4 p-sm-0">
+  <div class="card p-xs-1 px-sm-2 h-100 ">
     <div class="card-body d-flex flex-column ">
-        <img src="mca/Gulshan.jpeg" alt="Team_image" class="card-img-top img-fluid ">
+        <img src="mca/Gulshan.jpeg" alt="Team_image" class="card-img-top img-fluid align-self-center img-thumbnail">
       <h4 class="card-caption text-center">Gulshan Kumar</h4>
     
       <p class="card-text my-2 dob mb-0"><b>Date of Birth :</b>12/12/1998 </p>
       <p class="card-text my-2 mob mb-0"><b>Mobile :</b>   7004881962 </p>
       <p class="card-text my-2 email shadow"><b>E-mail</b><br>gulshan1212kumar@gmail.com </p> 
-         <p class="card-text my-2 skill shadow"><b>Skills:</b> <span class="badge">DBMS</span><span class="badge"> Web development</span><span class="badge">java</p>
+         <p class="card-text my-2 skill shadow"><b>Skills:</b> <span class="badge">DBMS</span><span class="badge"> Web development</span><span class="badge">java</span></p>
          <div class="row d-flex justify-content-around" >
-          <button class="shadow btn btn-primary col-5 m-1"  onclick="window.location.href = 'https://www.linkedin.com/in/gulshan-kumar-499b95202';">LinkedIn
-          <button class="shadow btn btn-primary col-5 m-1"  onclick="window.location.href = 'https://drive.google.com/file/d/1mq2fS9qpcWu-mgdRalr8AP34-NcEsuEx/view?usp=sharing';">Resume
+          <button class="shadow btn btn-primary col-5 m-1 px-sm-1"  onclick="window.location.href = 'https://www.linkedin.com/in/gulshan-kumar-499b95202';">LinkedIn
+          <button class="shadow btn btn-primary col-5 m-1 px-sm-1"  onclick="window.location.href = 'https://drive.google.com/file/d/1mq2fS9qpcWu-mgdRalr8AP34-NcEsuEx/view?usp=sharing';">Resume
           </div>
     </div>
 
     </div>
     </div>
 
-    <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-0 d-flex">
-    <div class="card flex-grow mx-auto">
+    <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-2 px-4 p-sm-0">
+    <div class="card p-xs-1 px-sm-2 h-100 ">
     <div class="card-body d-flex flex-column ">
-        <img src="mca/Kaushiki_Pandey.jpeg" alt="Team_image" class="card-img-top img-fluid ">
+        <img src="mca/Kaushiki_Pandey.jpeg" alt="Team_image" class="card-img-top img-fluid align-self-center img-thumbnail">
       <h4 class="card-caption text-center">Kaushiki Pandey</h4>
     
       <p class="card-text my-2 dob mb-0"><b>Date of Birth :</b>04/08/1998 </p>
       <p class="card-text my-2 mob mb-0"><b>Mobile :</b>7525819859</p>
       <p class="card-text my-2 email shadow"><b>E-mail</b><br>pandeykaushiki12@gmail.com</p> 
-         <p class="card-text my-2 skill shadow"><b>Skills:</b> <span class="badge">Java</span><span class="badge">C++</span><span class="badge">HTML</span><span class="badge"> SQL</span><span class="badge"> Solidity</p>
+         <p class="card-text my-2 skill shadow"><b>Skills:</b> <span class="badge">Java</span><span class="badge">C++</span><span class="badge">HTML</span><span class="badge"> SQL</span><span class="badge"> Solidity</span></p>
          <div class="row d-flex justify-content-around" >
-         <button class="shadow btn btn-primary col-5 m-1"  onclick="window.location.href = 'https://www.linkedin.com/in/kaushiki-pandey-721106215';">LinkedIn
-          <button class="shadow btn btn-primary col-5 m-1"  onclick="window.location.href = 'https://drive.google.com/file/d/1hfsXflyrArK-A3PokPqFCHw2zy1Z0z5Q/view?usp=drivesdk';">Resume
+         <button class="shadow btn btn-primary col-5 m-1 px-sm-1"  onclick="window.location.href = 'https://www.linkedin.com/in/kaushiki-pandey-721106215';">LinkedIn
+          <button class="shadow btn btn-primary col-5 m-1 px-sm-1"  onclick="window.location.href = 'https://drive.google.com/file/d/1hfsXflyrArK-A3PokPqFCHw2zy1Z0z5Q/view?usp=drivesdk';">Resume
           </div>
      
      </div>
@@ -1215,113 +1215,113 @@
      </div>
      </div>
 
-     <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-0 d-flex">
-     <div class="card flex-grow mx-auto">
+     <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-2 px-4 p-sm-0">
+     <div class="card p-xs-1 px-sm-2 h-100 ">
     <div class="card-body d-flex flex-column ">
-        <img src="mca/Prakhar.jpeg" alt="Team_image" class="card-img-top img-fluid ">
+        <img src="mca/Prakhar.jpeg" alt="Team_image" class="card-img-top img-fluid align-self-center img-thumbnail">
       <h4 class="card-caption text-center">Prakhar Mishra</h4>
     
       <p class="card-text my-2 dob mb-0"><b>Date of Birth :</b>12/03/1997</p>
       <p class="card-text my-2 mob mb-0"><b>Mobile : </b>8840326346</p>
       <p class="card-text my-2 email shadow"><b>E-mail</b><br>prakharc2222@gmail.com</p> 
-         <p class="card-text my-2 skill shadow"><b>Skills: </b> C</span><span class="badge">C++</span><span class="badge">Python</span><span class="badge">HTML</span><span class="badge">CSS</span><span class="badge">JAVASCRIPT</p>
+         <p class="card-text my-2 skill shadow"><b>Skills: </b> <span class="badge"> C</span><span class="badge">C++</span><span class="badge">Python</span><span class="badge">HTML</span><span class="badge">CSS</span><span class="badge">JAVASCRIPT</span></p>
          <div class="row d-flex justify-content-around" >
-        <button class="shadow btn btn-primary col-5 m-1"  onclick="window.location.href = 'https://www.linkedin.com/in/prakhar-m-00953a95';">LinkedIn
-          <button class="shadow btn btn-primary col-5 m-1"  onclick="window.location.href = 'https://drive.google.com/file/d/15t8n31bP1fAdNepDCJIIPn7Sts9GUiTu/view?usp=drivesdk';">Resume
+        <button class="shadow btn btn-primary col-5 m-1 px-sm-1"  onclick="window.location.href = 'https://www.linkedin.com/in/prakhar-m-00953a95';">LinkedIn
+          <button class="shadow btn btn-primary col-5 m-1 px-sm-1"  onclick="window.location.href = 'https://drive.google.com/file/d/15t8n31bP1fAdNepDCJIIPn7Sts9GUiTu/view?usp=drivesdk';">Resume
           </div>
       
     </div>
   </div>
   </div>
 
-  <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-0 d-flex">
-  <div class="card flex-grow mx-auto">
+  <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-2 px-4 p-sm-0">
+  <div class="card p-xs-1 px-sm-2 h-100 ">
     <div class="card-body d-flex flex-column ">
-        <img src="mca/Pranay Kumar Minj.jpeg" alt="Team_image" class="card-img-top img-fluid ">
+        <img src="mca/Pranay Kumar Minj.jpeg" alt="Team_image" class="card-img-top img-fluid align-self-center img-thumbnail">
       <h4 class="card-caption text-center">Pranay Kumar Minj</h4>
     
       <p class="card-text my-2 dob mb-0"><b>Date of Birth :</b>11/06/1998 </p>
       <p class="card-text my-2 mob mb-0"><b>Mobile :</b>   8429569459 </p>
       <p class="card-text my-2 email shadow"><b>E-mail</b><br>pranayminj.54@gmail.com </p> 
-         <p class="card-text my-2 skill shadow"><b>Skills:</b> <span class="badge">C</span><span class="badge">C++</span><span class="badge"> My SQL</span><span class="badge">Python</p>
+         <p class="card-text my-2 skill shadow"><b>Skills:</b> <span class="badge">C</span><span class="badge">C++</span><span class="badge"> My SQL</span><span class="badge">Python</span></p>
          <div class="row d-flex justify-content-around" >
-          <button class="shadow btn btn-primary col-5 m-1"  onclick="window.location.href = 'https://www.linkedin.com/in/pranay-minj-b9806a1a9';">LinkedIn
-          <button class="shadow btn btn-primary col-5 m-1"  onclick="window.location.href = 'https://drive.google.com/file/d/1fdWP5exSXHpnBTDW9aY_DvtQiHsznruq/view?usp=drivesdk';">Resume
+          <button class="shadow btn btn-primary col-5 m-1 px-sm-1"  onclick="window.location.href = 'https://www.linkedin.com/in/pranay-minj-b9806a1a9';">LinkedIn
+          <button class="shadow btn btn-primary col-5 m-1 px-sm-1"  onclick="window.location.href = 'https://drive.google.com/file/d/1fdWP5exSXHpnBTDW9aY_DvtQiHsznruq/view?usp=drivesdk';">Resume
           </div>
     </div>
 
     </div>
     </div>
 
-    <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-0 d-flex">
-    <div class="card flex-grow mx-auto">
+    <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-2 px-4 p-sm-0">
+    <div class="card p-xs-1 px-sm-2 h-100 ">
     <div class="card-body d-flex flex-column ">
-        <img src="mca/Praveen.jpeg" alt="Team_image" class="card-img-top img-fluid ">
+        <img src="mca/Praveen.jpeg" alt="Team_image" class="card-img-top img-fluid align-self-center img-thumbnail">
       <h4 class="card-caption text-center">Praveen Pandey</h4>
       <p class="card-text my-2 dob mb-0"><b>Date of Birth :</b>12/05/1996</p>
       <p class="card-text my-2 mob mb-0"><b>Mobile :</b>8317067692</p>
       <p class="card-text my-2 email shadow"><b>E-mail</b><br>praveenpandey10xx@gmail.com</p> 
-         <p class="card-text my-2 skill shadow"><b>Skills:</b> <span class="badge">Python</span><span class="badge">R </span><span class="badge">My Sql</span><span class="badge"> Data Structure and Algorithm</p>
+         <p class="card-text my-2 skill shadow"><b>Skills:</b> <span class="badge">Python</span><span class="badge">R </span><span class="badge">My Sql</span><span class="badge"> Data Structure and Algorithm</span></p>
          <div class="row d-flex justify-content-around" >
-         <button class="shadow btn btn-primary col-5 m-1"  onclick="window.location.href = 'http://linkedin.com/in/praveen-pandey-007a081b9';">LinkedIn
-          <button class="shadow btn btn-primary col-5 m-1"  onclick="window.location.href = 'https://drive.google.com/file/d/1oyLtRSnv16kcF_I4Lo8L-9G86LXFi2px/view?usp=sharing';">Resume
+         <button class="shadow btn btn-primary col-5 m-1 px-sm-1"  onclick="window.location.href = 'http://linkedin.com/in/praveen-pandey-007a081b9';">LinkedIn
+          <button class="shadow btn btn-primary col-5 m-1 px-sm-1"  onclick="window.location.href = 'https://drive.google.com/file/d/1oyLtRSnv16kcF_I4Lo8L-9G86LXFi2px/view?usp=sharing';">Resume
           </div>
      </div>
 
      </div>
      </div>
 
-     <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-0 d-flex">
-     <div class="card flex-grow mx-auto">
+     <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-2 px-4 p-sm-0">
+     <div class="card p-xs-1 px-sm-2 h-100 ">
     <div class="card-body d-flex flex-column ">
-        <img src="mca/Sanjay_Munda.jpeg" alt="Team_image" class="card-img-top img-fluid ">
+        <img src="mca/Sanjay_Munda.jpeg" alt="Team_image" class="card-img-top img-fluid align-self-center img-thumbnail">
       <h4 class="card-caption text-center">Sanjay Munda</h4>
     
       <p class="card-text my-2 dob mb-0"><b>Date of Birth :</b>24/08/1998</p>
       <p class="card-text my-2 mob mb-0"><b>Mobile : </b>8709134876</p>
       <p class="card-text my-2 email shadow"><b>E-mail</b><br>sanjaymunda9062@gmail.com</p> 
-         <p class="card-text my-2 skill shadow"><b>Skills: </b>SQl</span><span class="badge">c</span><span class="badge">c++</span><span class="badge">python</span><span class="badge">html</p>
+         <p class="card-text my-2 skill shadow"><b>Skills: </b> <span class="badge">SQl</span><span class="badge">c</span><span class="badge">c++</span><span class="badge">python</span><span class="badge">html</span></p>
          <div class="row d-flex justify-content-around" >
-          <button class="shadow btn btn-primary col-5 m-1"  onclick="window.location.href = 'https://www.linkedin.com/in/sanjay-munda-b34b00221';">LinkedIn
-          <button class="shadow btn btn-primary col-5 m-1"  onclick="window.location.href = 'https://drive.google.com/file/d/1eawilJG3G245OMpBZVCUg8YA9v14IYJY/view?usp=drivesdk';">Resume
+          <button class="shadow btn btn-primary col-5 m-1 px-sm-1"  onclick="window.location.href = 'https://www.linkedin.com/in/sanjay-munda-b34b00221';">LinkedIn
+          <button class="shadow btn btn-primary col-5 m-1 px-sm-1"  onclick="window.location.href = 'https://drive.google.com/file/d/1eawilJG3G245OMpBZVCUg8YA9v14IYJY/view?usp=drivesdk';">Resume
           </div>
       
     </div>
   </div>
   </div>
 
-  <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-0 d-flex">
-  <div class="card flex-grow mx-auto">
+  <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-2 px-4 p-sm-0">
+  <div class="card p-xs-1 px-sm-2 h-100 ">
     <div class="card-body d-flex flex-column ">
-        <img src="mca/Shekhar.jpeg" alt="Team_image" class="card-img-top img-fluid ">
+        <img src="mca/Shekhar.jpeg" alt="Team_image" class="card-img-top img-fluid align-self-center img-thumbnail">
       <h4 class="card-caption text-center">Shekhar Suman</h4>
     
       <p class="card-text my-2 dob mb-0"><b>Date of Birth :</b>16/09/1998 </p>
       <p class="card-text my-2 mob mb-0"><b>Mobile :</b>   8545993843 </p>
       <p class="card-text my-2 email shadow"><b>E-mail</b><br>ssbhu16@gmail.com </p> 
-         <p class="card-text my-2 skill shadow"><b>Skills:</b> <span class="badge">Java</span><span class="badge"> Data Structure</span><span class="badge"> SQL</p>
+         <p class="card-text my-2 skill shadow"><b>Skills:</b> <span class="badge">Java</span><span class="badge"> Data Structure</span><span class="badge"> SQL</span></p>
          <div class="row d-flex justify-content-around" >
-          <button class="shadow btn btn-primary col-5 m-1"  onclick="window.location.href = 'https://www.linkedin.com/in/shekhar-suman-0ba641190';">LinkedIn
-          <button class="shadow btn btn-primary col-5 m-1"  onclick="window.location.href = 'https://drive.google.com/file/d/1OQkpeYTO1XO9PlSUBwEFDu0bzfejiUKm/view?usp=drivesdk';">Resume
+          <button class="shadow btn btn-primary col-5 m-1 px-sm-1"  onclick="window.location.href = 'https://www.linkedin.com/in/shekhar-suman-0ba641190';">LinkedIn
+          <button class="shadow btn btn-primary col-5 m-1 px-sm-1"  onclick="window.location.href = 'https://drive.google.com/file/d/1OQkpeYTO1XO9PlSUBwEFDu0bzfejiUKm/view?usp=drivesdk';">Resume
           </div>
     </div>
 
     </div>
     </div>
 
-    <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-0 d-flex">
-    <div class="card flex-grow mx-auto">
+    <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-2 px-4 p-sm-0">
+    <div class="card p-xs-1 px-sm-2 h-100 ">
     <div class="card-body d-flex flex-column ">
-        <img src="mca/Shilpa Das.jpeg" alt="Team_image" class="card-img-top img-fluid ">
+        <img src="mca/Shilpa Das.jpeg" alt="Team_image" class="card-img-top img-fluid align-self-center img-thumbnail">
       <h4 class="card-caption text-center">Shilpa Das</h4>
     
       <p class="card-text my-2 dob mb-0"><b>Date of Birth :</b>22/08/1998</p>
       <p class="card-text my-2 mob mb-0"><b>Mobile :</b>8789832605</p>
       <p class="card-text my-2 email shadow"><b>E-mail</b><br>shilpa.dass2011@gmail.com</p> 
-         <p class="card-text my-2 skill shadow"><b>Skills:</b> <span class="badge">C</span><span class="badge">C++</span><span class="badge"> SQL</span><span class="badge">Java</p>
+         <p class="card-text my-2 skill shadow"><b>Skills:</b> <span class="badge">C</span><span class="badge">C++</span><span class="badge"> SQL</span><span class="badge">Java</span></p>
          <div class="row d-flex justify-content-around" >
-         <button class="shadow btn btn-primary col-5 m-1"  onclick="window.location.href = 'https://www.linkedin.com/in/shilpa-das-35b752212';">LinkedIn
-          <button class="shadow btn btn-primary col-5 m-1"  onclick="window.location.href = 'https://drive.google.com/file/d/1yPq6Z5P_MLtzmcWbfnkBbtxL5G7eYG0i/view?usp=sharing';">Resume
+         <button class="shadow btn btn-primary col-5 m-1 px-sm-1"  onclick="window.location.href = 'https://www.linkedin.com/in/shilpa-das-35b752212';">LinkedIn
+          <button class="shadow btn btn-primary col-5 m-1 px-sm-1"  onclick="window.location.href = 'https://drive.google.com/file/d/1IL3_ehb0qOlCLO-JRUWuq7Za6DJyTAIM/view?usp=drivesdk';">Resume
           </div>
      
      </div>
@@ -1329,57 +1329,57 @@
      </div>
      </div>
 
-     <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-0 d-flex">
-     <div class="card flex-grow mx-auto">
+     <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-2 px-4 p-sm-0">
+     <div class="card p-xs-1 px-sm-2 h-100 ">
     <div class="card-body d-flex flex-column ">
-        <img src="mca/Shubham chaurasia.jpeg" alt="Team_image" class="card-img-top img-fluid ">
+        <img src="mca/Shubham chaurasia.jpeg" alt="Team_image" class="card-img-top img-fluid align-self-center img-thumbnail">
       <h4 class="card-caption text-center">Shubham Chaurasia</h4>
     
       <p class="card-text my-2 dob mb-0"><b>Date of Birth :</b>22/01/1999</p>
       <p class="card-text my-2 mob mb-0"><b>Mobile : </b>9648725203</p>
       <p class="card-text my-2 email shadow"><b>E-mail</b><br>shubham221chaurasia@gmail.com</p> 
-         <p class="card-text my-2 skill shadow"><b>Skills: </b>Java.C</span><span class="badge">C++</span><span class="badge">Data Structure and Algorithm</span><span class="badge">MySql</p>
+         <p class="card-text my-2 skill shadow"><b>Skills: </b> <span class="badge">Java.C</span><span class="badge">C++</span><span class="badge">Data Structure and Algorithm</span><span class="badge">MySql</span></p>
          <div class="row d-flex justify-content-around" >
-        <button class="shadow btn btn-primary col-5 m-1"  onclick="window.location.href = 'https://www.linkedin.com/in/shubham2201/';">LinkedIn
-          <button class="shadow btn btn-primary col-5 m-1"  onclick="window.location.href = 'https://drive.google.com/file/d/1DkdGbz-fC4iZPzVFakQ26PguR84LMC1u/view?usp=sharing';">Resume
+        <button class="shadow btn btn-primary col-5 m-1 px-sm-1"  onclick="window.location.href = 'https://www.linkedin.com/in/shubham2201/';">LinkedIn
+          <button class="shadow btn btn-primary col-5 m-1 px-sm-1"  onclick="window.location.href = 'https://drive.google.com/file/d/1DkdGbz-fC4iZPzVFakQ26PguR84LMC1u/view?usp=sharing';">Resume
           </div>
       
     </div>
   </div>
   </div>
 
-  <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-0 d-flex">
-  <div class="card flex-grow mx-auto">
+  <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-2 px-4 p-sm-0">
+  <div class="card p-xs-1 px-sm-2 h-100 ">
     <div class="card-body d-flex flex-column ">
-        <img src="mca/Shubham_Gupta.jpeg" alt="Team_image" class="card-img-top img-fluid ">
+        <img src="mca/Shubham_Gupta.jpeg" alt="Team_image" class="card-img-top img-fluid align-self-center img-thumbnail">
       <h4 class="card-caption text-center">Shubham Gupta</h4>
     
       <p class="card-text my-2 dob mb-0"><b>Date of Birth :</b>06/01/2000 </p>
       <p class="card-text my-2 mob mb-0"><b>Mobile :</b>   7800132348 </p>
       <p class="card-text my-2 email shadow"><b>E-mail</b><br>kanishk785@gmail.com </p> 
-         <p class="card-text my-2 skill shadow"><b>Skills:</b> <span class="badge">Python</span><span class="badge">html</span><span class="badge">CSS</p>
+         <p class="card-text my-2 skill shadow"><b>Skills:</b> <span class="badge">Python</span><span class="badge">html</span><span class="badge">CSS</span></p>
          <div class="row d-flex justify-content-around" >
-          <button class="shadow btn btn-primary col-5 m-1"  onclick="window.location.href = '';">LinkedIn
-          <button class="shadow btn btn-primary col-5 m-1"  onclick="window.location.href = 'https://docs.google.com/document/d/1JujD1A2vbNtvvI21hF7EMAKF-OYtIeEC/edit?usp=drivesdk&ouid=108331371874102394640&rtpof=true&sd=true';">Resume
+          <button class="shadow btn btn-primary col-5 m-1 px-sm-1"  onclick="window.location.href = '';">LinkedIn
+          <button class="shadow btn btn-primary col-5 m-1 px-sm-1"  onclick="window.location.href = 'https://docs.google.com/document/d/1JujD1A2vbNtvvI21hF7EMAKF-OYtIeEC/edit?usp=drivesdk&ouid=108331371874102394640&rtpof=true&sd=true';">Resume
           </div>
     </div>
 
     </div>
     </div>
 
-    <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-0 d-flex">
-    <div class="card flex-grow mx-auto">
+    <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-2 px-4 p-sm-0">
+    <div class="card p-xs-1 px-sm-2 h-100 ">
     <div class="card-body d-flex flex-column ">
-        <img src="mca/Smriti_Srivastava.jpeg" alt="Team_image" class="card-img-top img-fluid ">
+        <img src="mca/Smriti_Srivastava.jpeg" alt="Team_image" class="card-img-top img-fluid align-self-center img-thumbnail">
       <h4 class="card-caption text-center">Smriti Srivastava</h4>
     
       <p class="card-text my-2 dob mb-0"><b>Date of Birth :</b>21/08/1997</p>
       <p class="card-text my-2 mob mb-0"><b>Mobile :</b>8318861005</p>
       <p class="card-text my-2 email shadow"><b>E-mail</b><br>smritiashisrivastava@gmail.com</p> 
-         <p class="card-text my-2 skill shadow"><b>Skills:</b> <span class="badge">C</span><span class="badge">C++</span><span class="badge">HTML</span><span class="badge">CSS</span><span class="badge">Javascript</span><span class="badge"> NodeJs</span><span class="badge"> ReactJs</span><span class="badge">Express</span><span class="badge"> MongoDB</span><span class="badge">SQL</p>
+         <p class="card-text my-2 skill shadow"><b>Skills:</b> <span class="badge">C</span><span class="badge">C++</span><span class="badge">HTML</span><span class="badge">CSS</span><span class="badge">Javascript</span><span class="badge"> NodeJs</span><span class="badge"> ReactJs</span><span class="badge">Express</span><span class="badge"> MongoDB</span><span class="badge">SQL</span></p>
          <div class="row d-flex justify-content-around" >
-         <button class="shadow btn btn-primary col-5 m-1"  onclick="window.location.href = 'https://www.linkedin.com/in/smriti-srivastava-241a7b178/';">LinkedIn
-          <button class="shadow btn btn-primary col-5 m-1"  onclick="window.location.href = 'https://drive.google.com/file/d/1vE6FC4sm3fSCF3YR8BRVdaX6pkmmiYSI/view';">Resume
+         <button class="shadow btn btn-primary col-5 m-1 px-sm-1"  onclick="window.location.href = 'https://www.linkedin.com/in/smriti-srivastava-241a7b178/';">LinkedIn
+          <button class="shadow btn btn-primary col-5 m-1 px-sm-1"  onclick="window.location.href = 'https://drive.google.com/file/d/1vE6FC4sm3fSCF3YR8BRVdaX6pkmmiYSI/view';">Resume
           </div>
 
         </div>  
@@ -1398,13 +1398,13 @@
 
 <section class="section-cards">
   <div class="container">
-    <div class="row d-flex justify-content-center justify-content-lg-around">
+    <div class="row d-flex  justify-content-center justify-content-sm-around">
 
 
-<div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-0 d-flex">
-<div class="card flex-grow mx-auto">
+<div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-2 px-4 p-sm-0">
+<div class="card p-xs-1 px-sm-2 h-100 ">
     <div class="card-body d-flex flex-column ">
-        <img src="mca/Atul_Gupta.jpeg" alt="Team_image" class="card-img-top img-fluid ">
+        <img src="mca/Atul_Gupta.jpeg" alt="Team_image" class="card-img-top img-fluid align-self-center img-thumbnail">
       <h4 class="card-caption text-center">Atul Gupta</h4>
     
       <p class="card-text my-2 dob mb-0"><b>Date of Birth :</b>12/12/1999 </p>
@@ -1413,17 +1413,17 @@
          <p class="card-text my-2 interest shadow"><b>Area of Interest :</b><span class="badge">JavaProgramming</span><span class="badge">Web Development</span></p>
          <p class="card-text my-2 intern"><b>Internships/Projects :</b> None</p>
          <div class="row d-flex justify-content-around">
-          <button class="shadow btn btn-primary col-5 m-1"  onclick="window.location.href = 'https://drive.google.com/file/d/19JFg8Hjb4SY8zDXnL4sTVUPj77WRJTYe/view?usp=sharing';">Resume</button>
+          <button class="shadow btn btn-primary col-5 m-1 px-sm-1"  onclick="window.location.href = 'https://drive.google.com/file/d/19JFg8Hjb4SY8zDXnL4sTVUPj77WRJTYe/view?usp=sharing';">Resume</button>
       </div>
     </div>
 
     </div>
     </div>
 
-    <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-0 d-flex">
-    <div class="card flex-grow mx-auto">
+    <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-2 px-4 p-sm-0">
+    <div class="card p-xs-1 px-sm-2 h-100 ">
     <div class="card-body d-flex flex-column ">
-        <img src="mca/Manoranjan_Sethi.jpeg" alt="Team_image" class="card-img-top img-fluid ">
+        <img src="mca/Manoranjan_Sethi.jpeg" alt="Team_image" class="card-img-top img-fluid align-self-center img-thumbnail">
       <h4 class="card-caption text-center">Manoranjan Sethi</h4>
       <p class="card-text my-2 dob mb-0"><b>Date of Birth :</b>26/03/1998 </p>
       <p class="card-text my-2 mob mb-0"><b>Mobile :</b>7789014020</p>
@@ -1431,17 +1431,17 @@
          <p class="card-text my-2 interest shadow"><b>Area of Interest :</b><span class="badge">Machine Learning</span><span class="badge">Web Development </span></p>
          <p class="card-text my-2 intern"><b>Internships/Projects :</b> None</p>
          <div class="row d-flex justify-content-around">
-          <button class="shadow btn btn-primary col-5 m-1"  onclick="window.location.href = 'https://drive.google.com/file/d/1zUtTemfncUtr6ZJGdIU2MOvWLctqktc3/view?usp=sharing';">Resume
+          <button class="shadow btn btn-primary col-5 m-1 px-sm-1"  onclick="window.location.href = 'https://drive.google.com/file/d/1zUtTemfncUtr6ZJGdIU2MOvWLctqktc3/view?usp=sharing';">Resume
       </div>
     </div>
 
      </div>
      </div>
 
-     <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-0 d-flex">
-     <div class="card flex-grow mx-auto">
+     <div class="shadow-lg m-1 mb-4 mr-sm-0 col-xs-11 col-sm-5 col-md-4 col-lg-3 p-2 px-4 p-sm-0">
+     <div class="card p-xs-1 px-sm-2 h-100 ">
     <div class="card-body d-flex flex-column ">
-        <img src="mca/Vishal_Kumar_Mahto.jpeg" alt="Team_image" class="card-img-top img-fluid ">
+        <img src="mca/Vishal_Kumar_Mahto.jpeg" alt="Team_image" class="card-img-top img-fluid align-self-center img-thumbnail">
       <h4 class="card-caption text-center">Vishal Kumar Mahto</h4>
     
       <p class="card-text my-2 dob mb-0"><b>Date of Birth :</b>03/11/1998</p>
@@ -1450,7 +1450,7 @@
          <p class="card-text my-2 interest shadow"><b>Area of Interest : </b><spam>Android Development</span><span class="badge">DBMS</spam></p>
          <p class="card-text my-2 intern"><B>Internships/Projects : </b>None</p>
           <div class="row d-flex justify-content-around">
-          <button class="shadow btn btn-primary col-5 m-1"  onclick="window.location.href = 'https://drive.google.com/file/d/1BvqWvUIGxxRr_-2429LILKCTskuxGwkS/view?usp=sharing';">Resume
+          <button class="shadow btn btn-primary col-5 m-1 px-sm-1"  onclick="window.location.href = 'https://drive.google.com/file/d/1BvqWvUIGxxRr_-2429LILKCTskuxGwkS/view?usp=sharing';">Resume
       </div>
     </div>
   </div>
@@ -1461,7 +1461,7 @@
 
 
   
-  <footer class="bg-secondary text-center text-white">
+  <footer class="bg-secondary text-center text-white mt-auto">
     <p class="mb-0 badge">Copyright &copy; 2021, Student Profile, BHU-CS Dept.</p><br>
     <p class="mb-0 badge">Created by Preeti Sakta Satyam Jha & Keshav Sharma</p>
 </footer>
